@@ -1,0 +1,170 @@
+[
+  {
+    "Gap Type":"Planning Gap",
+    "Object":"3rd DC Foundation - RFID: Inbound with PO & DC Transfer",
+    "Finding":"Q2 actual has 12.2 MD but no Q2 plan.",
+    "Owner":"Project PM",
+    "ETA":"Backfill Resource Plan \/ WBS mapping",
+    "Priority":"High"
+  },
+  {
+    "Gap Type":"Planning Gap",
+    "Object":"Weather alert​",
+    "Finding":"Q2 actual has 10.7 MD but no Q2 plan.",
+    "Owner":"Project PM",
+    "ETA":"Backfill Resource Plan \/ WBS mapping",
+    "Priority":"High"
+  },
+  {
+    "Gap Type":"Utilization Gap",
+    "Object":"Harry Shi",
+    "Finding":"Q2 actual is 40.7 MD over plan.",
+    "Owner":"PM + resource owner",
+    "ETA":"Validate timesheet\/project mapping this week",
+    "Priority":"High"
+  },
+  {
+    "Gap Type":"Utilization Gap",
+    "Object":"Lucy Cao",
+    "Finding":"Q2 actual is 23.5 MD over plan.",
+    "Owner":"PM + resource owner",
+    "ETA":"Validate timesheet\/project mapping this week",
+    "Priority":"High"
+  },
+  {
+    "Gap Type":"Utilization Gap",
+    "Object":"Mengyi Zhou",
+    "Finding":"Q2 actual is 32.8 MD over plan.",
+    "Owner":"PM + resource owner",
+    "ETA":"Validate timesheet\/project mapping this week",
+    "Priority":"High"
+  },
+  {
+    "Gap Type":"Utilization Gap",
+    "Object":"Ryan Xu",
+    "Finding":"Q2 actual is 31.6 MD under plan.",
+    "Owner":"PM + resource owner",
+    "ETA":"Validate timesheet\/project mapping this week",
+    "Priority":"High"
+  },
+  {
+    "Gap Type":"Forecast Validation",
+    "Object":"Legacy to new pipeline migration",
+    "Finding":"Q3 adjusted plan has 16.0 MD but no Q1\/Q2 actual baseline in selected cohort.",
+    "Owner":"Project PM",
+    "ETA":"Confirm before Q3 forecast freeze",
+    "Priority":"Medium"
+  },
+  {
+    "Gap Type":"Forecast Validation",
+    "Object":"cve-2026-4-973 fix",
+    "Finding":"Q3 adjusted plan has 7.5 MD but no Q1\/Q2 actual baseline in selected cohort.",
+    "Owner":"Project PM",
+    "ETA":"Confirm before Q3 forecast freeze",
+    "Priority":"Medium"
+  },
+  {
+    "Gap Type":"Planning Gap",
+    "Object":"B2B Inventory Buy - Phase I - Manual Order Creation",
+    "Finding":"Q2 actual has 0.4 MD but no Q2 plan.",
+    "Owner":"Project PM",
+    "ETA":"Backfill Resource Plan \/ WBS mapping",
+    "Priority":"Medium"
+  },
+  {
+    "Gap Type":"Planning Gap",
+    "Object":"Fulfillment Resource Pool",
+    "Finding":"Q2 actual has 0.9 MD but no Q2 plan.",
+    "Owner":"Project PM",
+    "ETA":"Backfill Resource Plan \/ WBS mapping",
+    "Priority":"Medium"
+  },
+  {
+    "Gap Type":"Planning Gap",
+    "Object":"Keystone Rollout 2 - Impact Analysis",
+    "Finding":"Q2 actual has 0.1 MD but no Q2 plan.",
+    "Owner":"Project PM",
+    "ETA":"Backfill Resource Plan \/ WBS mapping",
+    "Priority":"Medium"
+  },
+  {
+    "Gap Type":"Planning Gap",
+    "Object":"New SSC Admin外派人员门禁",
+    "Finding":"Q2 actual has 1.8 MD but no Q2 plan.",
+    "Owner":"Project PM",
+    "ETA":"Backfill Resource Plan \/ WBS mapping",
+    "Priority":"Medium"
+  },
+  {
+    "Gap Type":"Planning Gap",
+    "Object":"Privacy Review",
+    "Finding":"Q2 actual has 5.5 MD but no Q2 plan.",
+    "Owner":"Project PM",
+    "ETA":"Backfill Resource Plan \/ WBS mapping",
+    "Priority":"Medium"
+  },
+  {
+    "Gap Type":"Planning Gap",
+    "Object":"Service Center- FTW related label data",
+    "Finding":"Q2 actual has 1.8 MD but no Q2 plan.",
+    "Owner":"Project PM",
+    "ETA":"Backfill Resource Plan \/ WBS mapping",
+    "Priority":"Medium"
+  },
+  {
+    "Gap Type":"Planning Gap",
+    "Object":"Store Portal Enhancement - One Page Profile Enhancement",
+    "Finding":"Q2 actual has 0.3 MD but no Q2 plan.",
+    "Owner":"Project PM",
+    "ETA":"Backfill Resource Plan \/ WBS mapping",
+    "Priority":"Medium"
+  },
+  {
+    "Gap Type":"Planning Gap",
+    "Object":"Tenancy Agreement Foundation",
+    "Finding":"Q2 actual has 0.1 MD but no Q2 plan.",
+    "Owner":"Project PM",
+    "ETA":"Backfill Resource Plan \/ WBS mapping",
+    "Priority":"Medium"
+  },
+  {
+    "Gap Type":"Planning Gap",
+    "Object":"UCS - Inventory for Product Sibling",
+    "Finding":"Q2 actual has 0.1 MD but no Q2 plan.",
+    "Owner":"Project PM",
+    "ETA":"Backfill Resource Plan \/ WBS mapping",
+    "Priority":"Medium"
+  },
+  {
+    "Gap Type":"Planning Gap",
+    "Object":"WBS Import",
+    "Finding":"Q2 actual has 4.6 MD but no Q2 plan.",
+    "Owner":"Project PM",
+    "ETA":"Backfill Resource Plan \/ WBS mapping",
+    "Priority":"Medium"
+  },
+  {
+    "Gap Type":"Utilization Gap",
+    "Object":"Jade Zhang",
+    "Finding":"Q2 actual is 18.8 MD over plan.",
+    "Owner":"PM + resource owner",
+    "ETA":"Validate timesheet\/project mapping this week",
+    "Priority":"Medium"
+  },
+  {
+    "Gap Type":"Utilization Gap",
+    "Object":"Liv Cao",
+    "Finding":"Q2 actual is 11.3 MD over plan.",
+    "Owner":"PM + resource owner",
+    "ETA":"Validate timesheet\/project mapping this week",
+    "Priority":"Medium"
+  },
+  {
+    "Gap Type":"Utilization Gap",
+    "Object":"Ruby Yang",
+    "Finding":"Q2 actual is 16.1 MD over plan.",
+    "Owner":"PM + resource owner",
+    "ETA":"Validate timesheet\/project mapping this week",
+    "Priority":"Medium"
+  }
+]

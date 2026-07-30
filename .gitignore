@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+outputs/resource_governance/*.png
+outputs/resource_governance/*.csv
+outputs/resource_governance/*.xlsx
+outputs/resource_governance/*.ndjson

@@ -1,0 +1,674 @@
+[
+  {
+    "Source":"Actual",
+    "姓名":"Daisy Tang",
+    "项目名称":"CR : APS Report",
+    "Quarter":"Q1 Actual",
+    "小时":4.0,
+    "MD":0.5
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Daisy Tang",
+    "项目名称":"DC to Province Mapping data EDE Publish",
+    "Quarter":"Q2 Actual",
+    "小时":24.0,
+    "MD":3.0
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Daisy Tang",
+    "项目名称":"Daily Operation - Linezone",
+    "Quarter":"Q1 Actual",
+    "小时":0.5,
+    "MD":0.0625
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Daisy Tang",
+    "项目名称":"OTB Report",
+    "Quarter":"Q1 Actual",
+    "小时":32.75,
+    "MD":4.09375
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Daisy Tang",
+    "项目名称":"OTB Report",
+    "Quarter":"Q2 Actual",
+    "小时":7.0,
+    "MD":0.875
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Daisy Tang",
+    "项目名称":"Price Portal enhancement: MD pricing Phase 1 Retail MD",
+    "Quarter":"Q1 Actual",
+    "小时":42.5,
+    "MD":5.3125
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Daisy Tang",
+    "项目名称":"Price Portal enhancement: MD pricing Phase2 EC MD",
+    "Quarter":"Q2 Actual",
+    "小时":72.23,
+    "MD":9.02875
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Daisy Tang",
+    "项目名称":"Store Clustering SU27 Women \/ CN Adoption",
+    "Quarter":"Q1 Actual",
+    "小时":28.0,
+    "MD":3.5
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Daisy Tang",
+    "项目名称":"Store Clustering: CN Adoption CR",
+    "Quarter":"Q1 Actual",
+    "小时":0.5,
+    "MD":0.0625
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Daisy Tang",
+    "项目名称":"Store Clustering: CN Adoption CR",
+    "Quarter":"Q2 Actual",
+    "小时":11.25,
+    "MD":1.40625
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Daisy Tang",
+    "项目名称":"Store to Store Rebalance - Inner Region Pilot",
+    "Quarter":"Q1 Actual",
+    "小时":1.5,
+    "MD":0.1875
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Harry Shi",
+    "项目名称":"3rd DC Foundation - 3rd DC : Inbound Release",
+    "Quarter":"Q1 Actual",
+    "小时":68.0,
+    "MD":8.5
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Harry Shi",
+    "项目名称":"3rd DC Foundation - 3rd DC : Inbound Release",
+    "Quarter":"Q2 Actual",
+    "小时":61.0,
+    "MD":7.625
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Harry Shi",
+    "项目名称":"3rd DC Foundation - 3rd DC : Outbound Release",
+    "Quarter":"Q2 Actual",
+    "小时":85.0,
+    "MD":10.625
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Harry Shi",
+    "项目名称":"3rd DC Foundation - PO Release",
+    "Quarter":"Q1 Actual",
+    "小时":28.0,
+    "MD":3.5
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Harry Shi",
+    "项目名称":"3rd DC Foundation - RFID: Inbound with PO & DC Transfer",
+    "Quarter":"Q1 Actual",
+    "小时":2.0,
+    "MD":0.25
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Harry Shi",
+    "项目名称":"3rd DC Foundation - RFID: Inbound with PO & DC Transfer",
+    "Quarter":"Q2 Actual",
+    "小时":62.0,
+    "MD":7.75
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Harry Shi",
+    "项目名称":"3rd DC Foundation - RFID: Outbound",
+    "Quarter":"Q2 Actual",
+    "小时":6.0,
+    "MD":0.75
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Harry Shi",
+    "项目名称":"3rd DC Foundation - Return Routing",
+    "Quarter":"Q1 Actual",
+    "小时":2.5,
+    "MD":0.3125
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Harry Shi",
+    "项目名称":"3rd DC Foundation - Return Routing",
+    "Quarter":"Q2 Actual",
+    "小时":18.0,
+    "MD":2.25
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Harry Shi",
+    "项目名称":"Agile Fulfillment – FOH\/BOH for MD and enhancement",
+    "Quarter":"Q1 Actual",
+    "小时":12.0,
+    "MD":1.5
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Harry Shi",
+    "项目名称":"Carton Receiving\/DC to Store Portal | Reports Update",
+    "Quarter":"Q1 Actual",
+    "小时":15.0,
+    "MD":1.875
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Harry Shi",
+    "项目名称":"Carton receiving process Delivery",
+    "Quarter":"Q1 Actual",
+    "小时":108.0,
+    "MD":13.5
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Harry Shi",
+    "项目名称":"China Service Center",
+    "Quarter":"Q2 Actual",
+    "小时":141.0,
+    "MD":17.625
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Harry Shi",
+    "项目名称":"Fulfillment Resource Pool",
+    "Quarter":"Q1 Actual",
+    "小时":6.5,
+    "MD":0.8125
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Harry Shi",
+    "项目名称":"Fulfillment Resource Pool",
+    "Quarter":"Q2 Actual",
+    "小时":7.0,
+    "MD":0.875
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Harry Shi",
+    "项目名称":"KS & GZ DC RFID: Outbound",
+    "Quarter":"Q2 Actual",
+    "小时":89.0,
+    "MD":11.125
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Harry Shi",
+    "项目名称":"KS & GZ DC: RFID Inbound",
+    "Quarter":"Q1 Actual",
+    "小时":60.0,
+    "MD":7.5
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Harry Shi",
+    "项目名称":"KS & GZ DC: RFID Inbound",
+    "Quarter":"Q2 Actual",
+    "小时":3.0,
+    "MD":0.375
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Harry Shi",
+    "项目名称":"SFS | JD channel",
+    "Quarter":"Q1 Actual",
+    "小时":15.0,
+    "MD":1.875
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Jade Zhang",
+    "项目名称":"Avature Enhancement Q1 - Offer Letter Template&Field Enhancement",
+    "Quarter":"Q1 Actual",
+    "小时":4.0,
+    "MD":0.5
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Jade Zhang",
+    "项目名称":"Daily Operation",
+    "Quarter":"Q2 Actual",
+    "小时":8.0,
+    "MD":1.0
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Jade Zhang",
+    "项目名称":"Enhancement CR Q1 - AP WMP backend data",
+    "Quarter":"Q2 Actual",
+    "小时":24.0,
+    "MD":3.0
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Jade Zhang",
+    "项目名称":"New SSC Admin外派人员门禁",
+    "Quarter":"Q2 Actual",
+    "小时":0.5,
+    "MD":0.0625
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Jade Zhang",
+    "项目名称":"Privacy Review",
+    "Quarter":"Q2 Actual",
+    "小时":44.0,
+    "MD":5.5
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Jade Zhang",
+    "项目名称":"QA Resource Pool",
+    "Quarter":"Q1 Actual",
+    "小时":16.0,
+    "MD":2.0
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Jade Zhang",
+    "项目名称":"Service Center- FTW related label data",
+    "Quarter":"Q2 Actual",
+    "小时":14.0,
+    "MD":1.75
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Jade Zhang",
+    "项目名称":"Trade Compliance Automation Tool - Customs Portal Enhancement",
+    "Quarter":"Q2 Actual",
+    "小时":76.25,
+    "MD":9.53125
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Jade Zhang",
+    "项目名称":"Weather alert​",
+    "Quarter":"Q2 Actual",
+    "小时":64.5,
+    "MD":8.0625
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"3rd DC Foundation - 3rd DC : Inbound Release",
+    "Quarter":"Q1 Actual",
+    "小时":139.0,
+    "MD":17.375
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"3rd DC Foundation - 3rd DC : Inbound Release",
+    "Quarter":"Q2 Actual",
+    "小时":66.5,
+    "MD":8.3125
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"3rd DC Foundation - 3rd DC : Outbound Release",
+    "Quarter":"Q2 Actual",
+    "小时":219.25,
+    "MD":27.40625
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"3rd DC Foundation - PO Release",
+    "Quarter":"Q1 Actual",
+    "小时":45.0,
+    "MD":5.625
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"3rd DC Foundation - RFID: Inbound with PO & DC Transfer",
+    "Quarter":"Q1 Actual",
+    "小时":3.0,
+    "MD":0.375
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"3rd DC Foundation - RFID: Inbound with PO & DC Transfer",
+    "Quarter":"Q2 Actual",
+    "小时":21.0,
+    "MD":2.625
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"3rd DC Foundation - RFID: Outbound",
+    "Quarter":"Q2 Actual",
+    "小时":15.0,
+    "MD":1.875
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"3rd DC Foundation - Return Routing",
+    "Quarter":"Q2 Actual",
+    "小时":57.0,
+    "MD":7.125
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"Agile Fulfillment – FOH\/BOH for MD and enhancement",
+    "Quarter":"Q1 Actual",
+    "小时":27.0,
+    "MD":3.375
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"Carton receiving process Delivery",
+    "Quarter":"Q1 Actual",
+    "小时":82.0,
+    "MD":10.25
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"China Service Center",
+    "Quarter":"Q2 Actual",
+    "小时":12.5,
+    "MD":1.5625
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"Fulfillment Resource Pool",
+    "Quarter":"Q1 Actual",
+    "小时":1.5,
+    "MD":0.1875
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"KS & GZ DC RFID: Outbound",
+    "Quarter":"Q2 Actual",
+    "小时":9.5,
+    "MD":1.1875
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"KS & GZ DC: RFID Inbound",
+    "Quarter":"Q1 Actual",
+    "小时":35.5,
+    "MD":4.4375
+  },
+  {
+    "Source":"Actual",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"SFS | JD channel",
+    "Quarter":"Q1 Actual",
+    "小时":3.0,
+    "MD":0.375
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Daisy Tang",
+    "项目名称":"DC to Province Mapping data EDE Publish",
+    "Quarter":"Q2 Actual",
+    "小时":19.17,
+    "MD":2.39625
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Daisy Tang",
+    "项目名称":"Franchise Rolling",
+    "Quarter":"Q2 Actual",
+    "小时":10.8,
+    "MD":1.35
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Daisy Tang",
+    "项目名称":"OTB Report",
+    "Quarter":"Q2 Actual",
+    "小时":16.9147058824,
+    "MD":2.1143382353
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Daisy Tang",
+    "项目名称":"Price Portal enhancement: MD pricing Phase2 EC MD",
+    "Quarter":"Q2 Actual",
+    "小时":55.84,
+    "MD":6.98
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Daisy Tang",
+    "项目名称":"SSOT Output - CN CC and Class Attribute",
+    "Quarter":"Q2 Actual",
+    "小时":1.2,
+    "MD":0.15
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Daisy Tang",
+    "项目名称":"SSOT Output - CN SKU Attribute",
+    "Quarter":"Q2 Actual",
+    "小时":1.2,
+    "MD":0.15
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Daisy Tang",
+    "项目名称":"Store to Store Rebalance - Inner Region Pilot",
+    "Quarter":"Q2 Actual",
+    "小时":28.8,
+    "MD":3.6
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Harry Shi",
+    "项目名称":"3rd DC Foundation - 3rd DC : Inbound Release",
+    "Quarter":"Q2 Actual",
+    "小时":16.0156462585,
+    "MD":2.0019557823
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Harry Shi",
+    "项目名称":"3rd DC Foundation - 3rd DC : Outbound Release",
+    "Quarter":"Q2 Actual",
+    "小时":114.3222222222,
+    "MD":14.2902777778
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Harry Shi",
+    "项目名称":"3rd DC Foundation - 3rd DC : Outbound Release",
+    "Quarter":"Q3 Forecast",
+    "小时":4.1777777778,
+    "MD":0.5222222222
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Harry Shi",
+    "项目名称":"3rd DC Foundation - RFID: Outbound",
+    "Quarter":"Q3 Forecast",
+    "小时":2.375,
+    "MD":0.296875
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Harry Shi",
+    "项目名称":"3rd DC Foundation - Return Routing",
+    "Quarter":"Q2 Actual",
+    "小时":0.5,
+    "MD":0.0625
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Harry Shi",
+    "项目名称":"3rd DC Foundation - Return Routing",
+    "Quarter":"Q3 Forecast",
+    "小时":4.0,
+    "MD":0.5
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Harry Shi",
+    "项目名称":"IP Protection Phase 2 - Pipeline Migration",
+    "Quarter":"Q2 Actual",
+    "小时":1.05,
+    "MD":0.13125
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Harry Shi",
+    "项目名称":"KS & GZ DC RFID: Outbound",
+    "Quarter":"Q2 Actual",
+    "小时":0.05,
+    "MD":0.00625
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Harry Shi",
+    "项目名称":"KS & GZ DC: RFID Inbound",
+    "Quarter":"Q2 Actual",
+    "小时":2.3761904762,
+    "MD":0.2970238095
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Harry Shi",
+    "项目名称":"New Outbound LSP Integration for Retail",
+    "Quarter":"Q2 Actual",
+    "小时":0.2017741935,
+    "MD":0.0252217742
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Harry Shi",
+    "项目名称":"New Outbound LSP Integration for Retail",
+    "Quarter":"Q3 Forecast",
+    "小时":0.9382258065,
+    "MD":0.1172782258
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Harry Shi",
+    "项目名称":"SFS Store Rollout – 9 Store Q2",
+    "Quarter":"Q2 Actual",
+    "小时":12.0,
+    "MD":1.5
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Jade Zhang",
+    "项目名称":"CR_Employee referral report",
+    "Quarter":"Q2 Actual",
+    "小时":20.0,
+    "MD":2.5
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Jade Zhang",
+    "项目名称":"China People Data Compliance Project - PI Data governance for external vendor",
+    "Quarter":"Q2 Actual",
+    "小时":14.7272727273,
+    "MD":1.8409090909
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Jade Zhang",
+    "项目名称":"China People Data Compliance Project - PI Data governance for external vendor",
+    "Quarter":"Q3 Forecast",
+    "小时":1.4727272727,
+    "MD":0.1840909091
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Jade Zhang",
+    "项目名称":"Enhancement CR Q1 - AP WMP backend data",
+    "Quarter":"Q2 Actual",
+    "小时":6.02,
+    "MD":0.7525
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Jade Zhang",
+    "项目名称":"Trade Compliance Automation Tool - Customs Portal Enhancement",
+    "Quarter":"Q2 Actual",
+    "小时":39.92,
+    "MD":4.99
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"3rd DC Foundation - 3rd DC : Inbound Release",
+    "Quarter":"Q2 Actual",
+    "小时":4.0,
+    "MD":0.5
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"3rd DC Foundation - 3rd DC : Outbound Release",
+    "Quarter":"Q2 Actual",
+    "小时":122.3222222222,
+    "MD":15.2902777778
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"3rd DC Foundation - 3rd DC : Outbound Release",
+    "Quarter":"Q3 Forecast",
+    "小时":4.1777777778,
+    "MD":0.5222222222
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"New Outbound LSP Integration for Retail",
+    "Quarter":"Q2 Actual",
+    "小时":0.2017741935,
+    "MD":0.0252217742
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"New Outbound LSP Integration for Retail",
+    "Quarter":"Q3 Forecast",
+    "小时":0.9382258065,
+    "MD":0.1172782258
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"SFS Store Rollout – 9 Store Q2",
+    "Quarter":"Q2 Actual",
+    "小时":12.0,
+    "MD":1.5
+  }
+]

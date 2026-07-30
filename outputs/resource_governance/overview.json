@@ -1,0 +1,23 @@
+{
+  "cohort_size": 15,
+  "operation_pool_count": 10,
+  "dedicated_qa": [
+    "Jade Zhang",
+    "Daisy Tang",
+    "Harry Shi",
+    "Mengyi Zhou"
+  ],
+  "capacity_md": {
+    "Q1 Actual": 64,
+    "Q2 Actual": 66,
+    "Q3 Forecast": 65
+  },
+  "total_q1_actual_md": 437.83,
+  "total_q2_actual_md": 540.93,
+  "total_q2_planned_md": 426.14,
+  "total_q2_gap_md": 114.78,
+  "total_q3_forecast_md": 89.03,
+  "manual_q3_planned_add_md": 82.88,
+  "total_q3_adjusted_planned_md": 171.9,
+  "q3_adjusted_vs_q2_actual_md": -369.02
+}
