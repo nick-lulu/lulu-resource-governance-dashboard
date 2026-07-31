@@ -82,23 +82,30 @@ function App() {
     },
   ];
 
-  const resourceRows = useMemo(
+  const allResourceRows = useMemo(
     () =>
       resources
         .map((row) => ({ ...row, status: getResourceStatus(row) }))
-        .sort((a, b) => Number(b["Q2 Actual MD"] || 0) - Number(a["Q2 Actual MD"] || 0))
-        .slice(0, 9),
+        .sort((a, b) => Number(b["Q2 Actual MD"] || 0) - Number(a["Q2 Actual MD"] || 0)),
     [],
   );
 
   const dedicatedQaRows = useMemo(
     () =>
-      resources
+      allResourceRows
         .filter((row) => row.Dedicated === "Dedicated QA")
-        .map((row) => ({ ...row, status: getResourceStatus(row) }))
         .sort((a, b) => Number(b["Q2 Actual MD"] || 0) - Number(a["Q2 Actual MD"] || 0)),
-    [],
+    [allResourceRows],
   );
+
+  const resourceRows = useMemo(() => {
+    const topOperation = allResourceRows
+      .filter((row) => row.Dedicated !== "Dedicated QA")
+      .slice(0, 8);
+    return [...dedicatedQaRows, ...topOperation].sort(
+      (a, b) => Number(b["Q2 Actual MD"] || 0) - Number(a["Q2 Actual MD"] || 0),
+    );
+  }, [allResourceRows, dedicatedQaRows]);
 
   const dedicatedQaTotals = dedicatedQaRows.reduce(
     (acc, row) => ({
