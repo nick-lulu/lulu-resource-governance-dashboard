@@ -91,6 +91,26 @@ function App() {
     [],
   );
 
+  const dedicatedQaRows = useMemo(
+    () =>
+      resources
+        .filter((row) => row.Dedicated === "Dedicated QA")
+        .map((row) => ({ ...row, status: getResourceStatus(row) }))
+        .sort((a, b) => Number(b["Q2 Actual MD"] || 0) - Number(a["Q2 Actual MD"] || 0)),
+    [],
+  );
+
+  const dedicatedQaTotals = dedicatedQaRows.reduce(
+    (acc, row) => ({
+      q1Actual: acc.q1Actual + Number(row["Q1 Actual MD"] || 0),
+      q1Plan: acc.q1Plan + Number(row["Q1 Planned MD"] || 0),
+      q2Actual: acc.q2Actual + Number(row["Q2 Actual MD"] || 0),
+      q2Plan: acc.q2Plan + Number(row["Q2 Planned MD"] || 0),
+      q3Plan: acc.q3Plan + Number(row["Q3 Adjusted Planned MD"] || 0),
+    }),
+    { q1Actual: 0, q1Plan: 0, q2Actual: 0, q2Plan: 0, q3Plan: 0 },
+  );
+
   const topWarnings = gapList.slice(0, 4);
   const q1Accuracy = overview.total_q1_planned_md / overview.total_q1_actual_md;
   const q2Accuracy = overview.total_q2_planned_md / overview.total_q2_actual_md;
@@ -217,6 +237,60 @@ function App() {
               <span>{item.Owner} · {item.ETA}</span>
             </div>
           ))}
+        </div>
+      </section>
+
+      <section className="panel dedicated-panel">
+        <div className="panel-title">
+          <h2>Dedicated QA Reality</h2>
+          <span className="unit">Jade · Daisy · Harry · Mengyi</span>
+        </div>
+        <div className="dedicated-summary">
+          <div>
+            <span>Q1 Actual / Planned</span>
+            <strong>{md(dedicatedQaTotals.q1Actual)} / {md(dedicatedQaTotals.q1Plan)} MD</strong>
+          </div>
+          <div>
+            <span>Q2 Actual / Planned</span>
+            <strong>{md(dedicatedQaTotals.q2Actual)} / {md(dedicatedQaTotals.q2Plan)} MD</strong>
+          </div>
+          <div>
+            <span>Q3 Forecast / Planned</span>
+            <strong>{md(dedicatedQaTotals.q3Plan)} MD</strong>
+          </div>
+          <p>
+            Dedicated QA actual effort was significant in Q1/Q2, but Q3 forecast is still very light. This should be called out as a forecast completeness risk for dedicated QA coverage.
+          </p>
+        </div>
+        <div className="table-wrap compact-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Status</th>
+                <th>Dedicated QA</th>
+                <th>Q1 Actual / Planned</th>
+                <th>Q2 Actual / Planned</th>
+                <th>Q3 Forecast</th>
+                <th>Current Read</th>
+              </tr>
+            </thead>
+            <tbody>
+              {dedicatedQaRows.map((row) => (
+                <tr key={row.Resource}>
+                  <td><StatusBadge value={row.status} /></td>
+                  <td><strong>{row.Resource}</strong><small>{row.Space}</small></td>
+                  <td>{md(row["Q1 Actual MD"])} / {md(row["Q1 Planned MD"])} MD</td>
+                  <td>{md(row["Q2 Actual MD"])} / {md(row["Q2 Planned MD"])} MD</td>
+                  <td>{md(row["Q3 Adjusted Planned MD"])} MD</td>
+                  <td>
+                    {Number(row["Q3 Adjusted Planned MD"] || 0) < Number(row["Q2 Actual MD"] || 0) * 0.5
+                      ? "Q3 forecast needs confirmation"
+                      : "Forecast baseline exists"}
+                  </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
         </div>
       </section>
 
