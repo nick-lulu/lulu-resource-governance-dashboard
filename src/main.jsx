@@ -3,20 +3,17 @@ import { createRoot } from "react-dom/client";
 import {
   AlertTriangle,
   BarChart3,
-  BriefcaseBusiness,
   CheckCircle2,
   Download,
   Gauge,
-  Lightbulb,
+  Target,
   Users,
 } from "lucide-react";
 import {
   Bar,
   BarChart,
   CartesianGrid,
-  Cell,
   Legend,
-  Line,
   ResponsiveContainer,
   Tooltip,
   XAxis,
@@ -35,11 +32,6 @@ const md = (value, digits = 1) =>
     maximumFractionDigits: digits,
   });
 
-const pct = (value) => {
-  if (value === null || value === undefined || Number.isNaN(Number(value))) return "-";
-  return `${(Number(value) * 100).toFixed(0)}%`;
-};
-
 const risk = (value) => {
   if (value === "High") return "high";
   if (value === "Medium") return "medium";
@@ -47,10 +39,10 @@ const risk = (value) => {
 };
 
 function getResourceStatus(row) {
+  const q1Gap = Math.abs(Number(row["Q1 Actual - Plan MD"] || 0));
   const q2Gap = Math.abs(Number(row["Q2 Actual - Plan MD"] || 0));
-  const q3Delta = Number(row["Q3 Adjusted - Q2 Actual MD"] || 0);
-  if (q2Gap >= 20 || q3Delta <= -35) return "High";
-  if (q2Gap >= 10 || q3Delta <= -15) return "Medium";
+  if (q1Gap >= 20 || q2Gap >= 20) return "High";
+  if (q1Gap >= 10 || q2Gap >= 10) return "Medium";
   return "Low";
 }
 
@@ -79,15 +71,26 @@ function StatusBadge({ value }) {
 }
 
 function App() {
-  const chartData = useMemo(
-    () =>
-      monthly.map((row) => ({
-        month: row.Month,
-        actual: Number(row["Actual MD"] || 0),
-        q3Plan: Number(row["Adjusted Plan/Forecast MD"] || row["Plan/Forecast MD"] || 0),
-      })),
-    [],
-  );
+  const chartData = [
+    {
+      quarter: "Q1",
+      actual: overview.total_q1_actual_md,
+      planned: overview.total_q1_planned_md,
+      variance: overview.total_q1_gap_md,
+    },
+    {
+      quarter: "Q2",
+      actual: overview.total_q2_actual_md,
+      planned: overview.total_q2_planned_md,
+      variance: overview.total_q2_gap_md,
+    },
+    {
+      quarter: "Q3",
+      actual: 0,
+      planned: overview.total_q3_adjusted_planned_md,
+      variance: null,
+    },
+  ];
 
   const resourceRows = useMemo(
     () =>
@@ -115,17 +118,17 @@ function App() {
   );
 
   const topWarnings = gapList.slice(0, 4);
-  const coverageRate = overview.total_q3_adjusted_planned_md / overview.total_q2_actual_md;
-  const q3ActualMd = 0;
+  const q1Accuracy = overview.total_q1_planned_md / overview.total_q1_actual_md;
+  const q2Accuracy = overview.total_q2_planned_md / overview.total_q2_actual_md;
 
   return (
     <main>
       <header className="hero">
         <div>
           <p className="eyebrow">Lululemon Portfolio Resource Planning</p>
-          <h1>Q3 Forecast Readiness</h1>
+          <h1>Actual vs Planned, Then Q3 Forecast</h1>
           <p className="subtitle">
-            Current status view for Charley: Q2 actual baseline, Q3 planned workload, and what this says about forecast completeness before Q3 starts.
+            Boss view: Q1 and Q2 actual effort should be measured against their planned MD; Q3 is a forecast readiness view because actuals have not started yet.
           </p>
         </div>
         <a className="download" href={`${import.meta.env.BASE_URL}downloads/Resource_Governance_Boss_Ready.xlsx`}>
@@ -136,9 +139,9 @@ function App() {
 
       <section className="kpis">
         <Kpi icon={Users} label="Resource Scope" value={`${overview.cohort_size} people`} note="Operation + dedicated QA + confirmed Q3 resource" />
-        <Kpi icon={BarChart3} label="Q2 Actual Effort" value={`${md(overview.total_q2_actual_md)} MD`} note="Timesheet actual baseline" tone="blue" />
-        <Kpi icon={Gauge} label="Q3 Planned MD" value={`${md(overview.total_q3_adjusted_planned_md)} MD`} note="Forecast plus confirmed Q3 project effort" tone="green" />
-        <Kpi icon={Lightbulb} label="Forecast Coverage Check" value={`${(coverageRate * 100).toFixed(0)}%`} note="Q3 planned compared with Q2 actual run-rate, not an actual gap" tone="amber" />
+        <Kpi icon={BarChart3} label="Q1 Actual vs Planned" value={`${md(overview.total_q1_actual_md)} / ${md(overview.total_q1_planned_md)} MD`} note={`Actual was ${md(overview.total_q1_gap_md)} MD above plan`} tone="blue" />
+        <Kpi icon={Target} label="Q2 Actual vs Planned" value={`${md(overview.total_q2_actual_md)} / ${md(overview.total_q2_planned_md)} MD`} note={`Actual was ${md(overview.total_q2_gap_md)} MD above plan`} tone="amber" />
+        <Kpi icon={Gauge} label="Q3 Forecast / Planned" value={`${md(overview.total_q3_adjusted_planned_md)} MD`} note="Forecast plus confirmed Q3 project effort; no Q3 actual yet" tone="green" />
       </section>
 
       <section className="summary-grid">
@@ -149,16 +152,16 @@ function App() {
           </div>
           <ul>
             <li>
-              <strong>We cannot calculate Q3 actual gap yet.</strong>
-              <span>Source actual data is through 2026-07-31, while lulu Q3 starts on 2026-08-01. Current Q3 actual is {md(q3ActualMd)} MD in this dataset.</span>
+              <strong>Q1 and Q2 both show actual effort above plan.</strong>
+              <span>Q1 actual was {md(overview.total_q1_gap_md)} MD above planned MD; Q2 actual was {md(overview.total_q2_gap_md)} MD above planned MD.</span>
             </li>
             <li>
-              <strong>Q3 planned MD is a forecast readiness number.</strong>
-              <span>Q3 planned is {md(overview.total_q3_adjusted_planned_md)} MD after folding confirmed project effort into the plan.</span>
+              <strong>This is a planning accuracy issue, not only a resource capacity question.</strong>
+              <span>Q1 plan covered {(q1Accuracy * 100).toFixed(0)}% of actual effort; Q2 plan covered {(q2Accuracy * 100).toFixed(0)}% of actual effort.</span>
             </li>
             <li>
-              <strong>Insight: the Q3 forecast still looks light versus recent delivery run-rate.</strong>
-              <span>Q2 actual was {md(overview.total_q2_actual_md)} MD, so Q3 planned currently covers {(coverageRate * 100).toFixed(0)}% of Q2 run-rate. This suggests the forecast may still be incomplete, not that we have a Q3 execution gap.</span>
+              <strong>Q3 should be read as forecast readiness.</strong>
+              <span>Q3 planned is {md(overview.total_q3_adjusted_planned_md)} MD after confirmed project effort is included; actual comparison starts once Q3 timesheet data exists.</span>
             </li>
           </ul>
         </article>
@@ -170,16 +173,16 @@ function App() {
           </div>
           <ul>
             <li>
-              <strong>Actual comparison logic changes after Q3 starts.</strong>
-              <span>Once Aug-Oct timesheet actuals are available, the dashboard should switch to Q3 Actual vs Q3 Planned by resource and project.</span>
+              <strong>Historical insight.</strong>
+              <span>The resource plan underestimated actual delivery in both Q1 and Q2, so the governance mechanism should review plan quality, not just resource availability.</span>
             </li>
             <li>
-              <strong>Current management action is forecast cleanup.</strong>
-              <span>Before Q3 execution, the useful question is whether all known Q3 demand has been planned and assigned to named resources.</span>
+              <strong>Forward-looking insight.</strong>
+              <span>For Q3, the useful question is whether all known demand has been forecasted and assigned before execution begins.</span>
             </li>
             <li>
-              <strong>Q2 actual is only a benchmark.</strong>
-              <span>It helps detect whether the Q3 forecast is unusually low compared with the recent actual workload, especially for recurring Operation work.</span>
+              <strong>Early warning trigger.</strong>
+              <span>Once Q3 actuals arrive, compare Q3 actual vs Q3 planned weekly and flag variance above 20% or unplanned actual effort.</span>
             </li>
           </ul>
         </article>
@@ -193,34 +196,34 @@ function App() {
           </div>
           <ul>
             <li>
-              <strong>Q2 actual was materially higher than plan.</strong>
-              <span>Actual effort reached {md(overview.total_q2_actual_md)} MD, which is {md(overview.total_q2_gap_md)} MD above Q2 planned baseline.</span>
+              <strong>Q1 actual vs planned.</strong>
+              <span>{md(overview.total_q1_actual_md)} MD actual against {md(overview.total_q1_planned_md)} MD planned.</span>
             </li>
             <li>
-              <strong>Q3 plan has been adjusted with confirmed project effort.</strong>
-              <span>After adding confirmed Q3 project effort into planned MD, Q3 planned is {md(overview.total_q3_adjusted_planned_md)} MD.</span>
+              <strong>Q2 actual vs planned.</strong>
+              <span>{md(overview.total_q2_actual_md)} MD actual against {md(overview.total_q2_planned_md)} MD planned.</span>
             </li>
             <li>
-              <strong>The remaining concern is forecast completeness.</strong>
-              <span>The next step is to confirm whether recurring Operation work and project pipeline have all been represented in Q3 planned MD.</span>
+              <strong>Q3 forecast.</strong>
+              <span>{md(overview.total_q3_adjusted_planned_md)} MD forecast/planned. This includes confirmed Q3 project effort provided after the system export.</span>
             </li>
           </ul>
         </article>
 
         <article className="panel chart-panel">
           <div className="panel-title">
-            <h2>Actual Baseline vs Q3 Planned</h2>
+            <h2>Quarter View</h2>
             <span className="unit">MD</span>
           </div>
           <ResponsiveContainer width="100%" height={300}>
             <BarChart data={chartData} margin={{ top: 10, right: 8, left: 0, bottom: 0 }}>
               <CartesianGrid stroke="#E5E7EB" strokeDasharray="3 3" />
-              <XAxis dataKey="month" tick={{ fontSize: 12 }} />
+              <XAxis dataKey="quarter" tick={{ fontSize: 12 }} />
               <YAxis tick={{ fontSize: 12 }} />
               <Tooltip formatter={(value) => `${md(value)} MD`} />
               <Legend />
-              <Bar dataKey="q3Plan" name="Q3 Planned / Forecast" fill="#0F766E" radius={[4, 4, 0, 0]} />
-              <Line type="monotone" dataKey="actual" name="Actual" stroke="#2563EB" strokeWidth={3} dot={{ r: 3 }} />
+              <Bar dataKey="planned" name="Planned / Forecast" fill="#0F766E" radius={[4, 4, 0, 0]} />
+              <Bar dataKey="actual" name="Actual" fill="#2563EB" radius={[4, 4, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </article>
@@ -255,10 +258,10 @@ function App() {
                 <tr>
                   <th>Status</th>
                   <th>Resource</th>
+                  <th>Q1 A/P</th>
                   <th>Q2 Actual</th>
+                  <th>Q2 Plan</th>
                   <th>Q3 Planned</th>
-                  <th>Gap vs Q2</th>
-                  <th>Q3 Util.</th>
                 </tr>
               </thead>
               <tbody>
@@ -266,12 +269,10 @@ function App() {
                   <tr key={row.Resource}>
                     <td><StatusBadge value={row.status} /></td>
                     <td><strong>{row.Resource}</strong><small>{row.Dedicated}</small></td>
+                    <td>{md(row["Q1 Actual MD"])} / {md(row["Q1 Planned MD"])}</td>
                     <td>{md(row["Q2 Actual MD"])} MD</td>
+                    <td>{md(row["Q2 Planned MD"])} MD</td>
                     <td>{md(row["Q3 Adjusted Planned MD"])} MD</td>
-                    <td className={Number(row["Q3 Adjusted - Q2 Actual MD"]) < 0 ? "negative" : "positive"}>
-                      {md(row["Q3 Adjusted - Q2 Actual MD"])} MD
-                    </td>
-                    <td>{pct(row["Q3 Adjusted Utilization"])}</td>
                   </tr>
                 ))}
               </tbody>
@@ -290,8 +291,9 @@ function App() {
                 <tr>
                   <th>Status</th>
                   <th>Project</th>
-                  <th>Q2 Actual</th>
-                  <th>Q3 Planned</th>
+                  <th>Q1 A/P</th>
+                  <th>Q2 A/P</th>
+                  <th>Q3 Forecast</th>
                 </tr>
               </thead>
               <tbody>
@@ -299,7 +301,8 @@ function App() {
                   <tr key={row.Project}>
                     <td><StatusBadge value={row.status} /></td>
                     <td><strong>{row.Project}</strong></td>
-                    <td>{md(row["Q2 Actual MD"])} MD</td>
+                    <td>{md(row["Q1 Actual MD"])} / {md(row["Q1 Planned MD"])}</td>
+                    <td>{md(row["Q2 Actual MD"])} / {md(row["Q2 Planned MD"])}</td>
                     <td>{md(row["Q3 Adjusted Planned MD"])} MD</td>
                   </tr>
                 ))}
@@ -311,7 +314,7 @@ function App() {
 
       <footer>
         <CheckCircle2 size={16} />
-        Q3 Planned MD includes confirmed Q3 project effort provided after the original system export. The page focuses on the management view, while Excel keeps the detailed audit trail.
+        Q1/Q2 are actual-vs-planned validation periods. Q3 is forecast/planned only until Aug-Oct actual timesheet data becomes available.
       </footer>
     </main>
   );

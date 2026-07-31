@@ -13,6 +13,8 @@
     "Q3 Forecast": 65
   },
   "total_q1_actual_md": 437.83,
+  "total_q1_planned_md": 235.76,
+  "total_q1_gap_md": 202.05,
   "total_q2_actual_md": 540.93,
   "total_q2_planned_md": 426.14,
   "total_q2_gap_md": 114.78,

@@ -434,10 +434,26 @@
   {
     "Source":"Plan\/Forecast",
     "姓名":"Daisy Tang",
+    "项目名称":"CR : APS Report",
+    "Quarter":"Q1 Actual",
+    "小时":56.4,
+    "MD":7.05
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Daisy Tang",
     "项目名称":"DC to Province Mapping data EDE Publish",
     "Quarter":"Q2 Actual",
     "小时":19.17,
     "MD":2.39625
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Daisy Tang",
+    "项目名称":"Daily Operation - Linezone",
+    "Quarter":"Q1 Actual",
+    "小时":0.49,
+    "MD":0.06125
   },
   {
     "Source":"Plan\/Forecast",
@@ -451,9 +467,25 @@
     "Source":"Plan\/Forecast",
     "姓名":"Daisy Tang",
     "项目名称":"OTB Report",
+    "Quarter":"Q1 Actual",
+    "小时":36.2352941176,
+    "MD":4.5294117647
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Daisy Tang",
+    "项目名称":"OTB Report",
     "Quarter":"Q2 Actual",
     "小时":16.9147058824,
     "MD":2.1143382353
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Daisy Tang",
+    "项目名称":"Price Portal enhancement: MD pricing Phase 1 Retail MD",
+    "Quarter":"Q1 Actual",
+    "小时":42.58,
+    "MD":5.3225
   },
   {
     "Source":"Plan\/Forecast",
@@ -482,10 +514,34 @@
   {
     "Source":"Plan\/Forecast",
     "姓名":"Daisy Tang",
+    "项目名称":"Store Clustering SU27 Women \/ CN Adoption",
+    "Quarter":"Q1 Actual",
+    "小时":0.25,
+    "MD":0.03125
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Daisy Tang",
+    "项目名称":"Store to Store Rebalance - Inner Region Pilot",
+    "Quarter":"Q1 Actual",
+    "小时":6.4,
+    "MD":0.8
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Daisy Tang",
     "项目名称":"Store to Store Rebalance - Inner Region Pilot",
     "Quarter":"Q2 Actual",
     "小时":28.8,
     "MD":3.6
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Harry Shi",
+    "项目名称":"3rd DC Foundation - 3rd DC : Inbound Release",
+    "Quarter":"Q1 Actual",
+    "小时":30.8843537415,
+    "MD":3.8605442177
   },
   {
     "Source":"Plan\/Forecast",
@@ -514,6 +570,22 @@
   {
     "Source":"Plan\/Forecast",
     "姓名":"Harry Shi",
+    "项目名称":"3rd DC Foundation - PO Release",
+    "Quarter":"Q1 Actual",
+    "小时":22.88,
+    "MD":2.86
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Harry Shi",
+    "项目名称":"3rd DC Foundation - RFID: Inbound with PO & DC Transfer",
+    "Quarter":"Q1 Actual",
+    "小时":0.5,
+    "MD":0.0625
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Harry Shi",
     "项目名称":"3rd DC Foundation - RFID: Outbound",
     "Quarter":"Q3 Forecast",
     "小时":2.375,
@@ -538,6 +610,30 @@
   {
     "Source":"Plan\/Forecast",
     "姓名":"Harry Shi",
+    "项目名称":"Agile Fulfillment – FOH\/BOH for MD and enhancement",
+    "Quarter":"Q1 Actual",
+    "小时":8.0,
+    "MD":1.0
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Harry Shi",
+    "项目名称":"Carton Receiving\/DC to Store Portal | Reports Update",
+    "Quarter":"Q1 Actual",
+    "小时":24.0,
+    "MD":3.0
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Harry Shi",
+    "项目名称":"Carton receiving process Delivery",
+    "Quarter":"Q1 Actual",
+    "小时":106.1047138047,
+    "MD":13.2630892256
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Harry Shi",
     "项目名称":"IP Protection Phase 2 - Pipeline Migration",
     "Quarter":"Q2 Actual",
     "小时":1.05,
@@ -550,6 +646,14 @@
     "Quarter":"Q2 Actual",
     "小时":0.05,
     "MD":0.00625
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Harry Shi",
+    "项目名称":"KS & GZ DC: RFID Inbound",
+    "Quarter":"Q1 Actual",
+    "小时":2.2865079365,
+    "MD":0.2858134921
   },
   {
     "Source":"Plan\/Forecast",
@@ -582,6 +686,22 @@
     "Quarter":"Q2 Actual",
     "小时":12.0,
     "MD":1.5
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Harry Shi",
+    "项目名称":"SFS | JD channel",
+    "Quarter":"Q1 Actual",
+    "小时":38.0,
+    "MD":4.75
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Jade Zhang",
+    "项目名称":"Avature Enhancement Q1 - Offer Letter Template&Field Enhancement",
+    "Quarter":"Q1 Actual",
+    "小时":4.0,
+    "MD":0.5
   },
   {
     "Source":"Plan\/Forecast",
@@ -670,5 +790,13 @@
     "Quarter":"Q2 Actual",
     "小时":12.0,
     "MD":1.5
+  },
+  {
+    "Source":"Plan\/Forecast",
+    "姓名":"Mengyi Zhou",
+    "项目名称":"SFS | JD channel",
+    "Quarter":"Q1 Actual",
+    "小时":1.5,
+    "MD":0.1875
   }
 ]

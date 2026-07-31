@@ -107,7 +107,7 @@ actual_t["Quarter"] = actual_t["填写日期"].map(quarter_for_date)
 plan_t["Month"] = plan_t["统计日期"].map(fiscal_month)
 actual_t["Month"] = actual_t["填写日期"].map(fiscal_month)
 
-plan_q = plan_t[plan_t["Quarter"].isin(["Q2 Actual", "Q3 Forecast"])].copy()
+plan_q = plan_t[plan_t["Quarter"].isin(["Q1 Actual", "Q2 Actual", "Q3 Forecast"])].copy()
 actual_q = actual_t[actual_t["Quarter"].isin(["Q1 Actual", "Q2 Actual"])].copy()
 
 manual_q3 = pd.DataFrame(MANUAL_Q3_ADDITIONS)
@@ -143,6 +143,7 @@ for name in cohort_names:
             space = vals[0]
             break
     q1 = resource_actual.query("姓名 == @name and Quarter == 'Q1 Actual'")["MD"].sum()
+    q1p = resource_plan.query("姓名 == @name and Quarter == 'Q1 Actual'")["MD"].sum()
     q2a = resource_actual.query("姓名 == @name and Quarter == 'Q2 Actual'")["MD"].sum()
     q2p = resource_plan.query("姓名 == @name and Quarter == 'Q2 Actual'")["MD"].sum()
     q3 = resource_plan.query("姓名 == @name and Quarter == 'Q3 Forecast'")["MD"].sum()
@@ -155,6 +156,9 @@ for name in cohort_names:
         "Space": space,
         "Dedicated": "Dedicated QA" if name in DEDICATED_QA else ("Manual addition" if name not in set(plan_t["姓名"]) and name not in set(actual_t["姓名"]) else "Operation pool"),
         "Q1 Actual MD": round(q1, 2),
+        "Q1 Planned MD": round(q1p, 2),
+        "Q1 Actual - Plan MD": round(q1 - q1p, 2),
+        "Q1 Gap %": pct(q1 - q1p, q1p),
         "Q2 Actual MD": round(q2a, 2),
         "Q2 Planned MD": round(q2p, 2),
         "Q2 Actual - Plan MD": round(q2_gap, 2),
@@ -177,6 +181,7 @@ projects = sorted(set(project_actual["项目名称"]) | set(project_plan["项目
 project_rows = []
 for project in projects:
     q1 = project_actual.query("项目名称 == @project and Quarter == 'Q1 Actual'")["MD"].sum()
+    q1p = project_plan.query("项目名称 == @project and Quarter == 'Q1 Actual'")["MD"].sum()
     q2a = project_actual.query("项目名称 == @project and Quarter == 'Q2 Actual'")["MD"].sum()
     q2p = project_plan.query("项目名称 == @project and Quarter == 'Q2 Actual'")["MD"].sum()
     q3 = project_plan.query("项目名称 == @project and Quarter == 'Q3 Forecast'")["MD"].sum()
@@ -185,6 +190,9 @@ for project in projects:
     project_rows.append({
         "Project": project or "(blank)",
         "Q1 Actual MD": round(q1, 2),
+        "Q1 Planned MD": round(q1p, 2),
+        "Q1 Actual - Plan MD": round(q1 - q1p, 2),
+        "Q1 Gap %": pct(q1 - q1p, q1p),
         "Q2 Actual MD": round(q2a, 2),
         "Q2 Planned MD": round(q2p, 2),
         "Q2 Actual - Plan MD": round(q2a - q2p, 2),
@@ -201,6 +209,9 @@ for project in manual_projects:
     project_rows.append({
         "Project": project,
         "Q1 Actual MD": 0,
+        "Q1 Planned MD": 0,
+        "Q1 Actual - Plan MD": 0,
+        "Q1 Gap %": None,
         "Q2 Actual MD": 0,
         "Q2 Planned MD": 0,
         "Q2 Actual - Plan MD": 0,
@@ -298,6 +309,8 @@ overview = {
     "dedicated_qa": DEDICATED_QA,
     "capacity_md": capacity,
     "total_q1_actual_md": round(resource_summary["Q1 Actual MD"].sum(), 2),
+    "total_q1_planned_md": round(resource_summary["Q1 Planned MD"].sum(), 2),
+    "total_q1_gap_md": round(resource_summary["Q1 Actual - Plan MD"].sum(), 2),
     "total_q2_actual_md": round(resource_summary["Q2 Actual MD"].sum(), 2),
     "total_q2_planned_md": round(resource_summary["Q2 Planned MD"].sum(), 2),
     "total_q2_gap_md": round(resource_summary["Q2 Actual - Plan MD"].sum(), 2),

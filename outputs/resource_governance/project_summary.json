@@ -2,6 +2,9 @@
   {
     "Project":"Daily Operation",
     "Q1 Actual MD":177.01,
+    "Q1 Planned MD":81.12,
+    "Q1 Actual - Plan MD":95.89,
+    "Q1 Gap %":1.1821910507,
     "Q2 Actual MD":165.53,
     "Q2 Planned MD":84.5,
     "Q2 Actual - Plan MD":81.03,
@@ -15,6 +18,9 @@
   {
     "Project":"IP Protection - Baison Omni",
     "Q1 Actual MD":0.09,
+    "Q1 Planned MD":1.36,
+    "Q1 Actual - Plan MD":-1.26,
+    "Q1 Gap %":-0.9308841184,
     "Q2 Actual MD":2.91,
     "Q2 Planned MD":7.84,
     "Q2 Actual - Plan MD":-4.93,
@@ -28,6 +34,9 @@
   {
     "Project":"Operation Resource Pool",
     "Q1 Actual MD":33.56,
+    "Q1 Planned MD":13.07,
+    "Q1 Actual - Plan MD":20.5,
+    "Q1 Gap %":1.5685870153,
     "Q2 Actual MD":66.06,
     "Q2 Planned MD":63.54,
     "Q2 Actual - Plan MD":2.52,
@@ -41,6 +50,9 @@
   {
     "Project":"Legacy to new pipeline migration",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.0,
@@ -54,6 +66,9 @@
   {
     "Project":"IP Protection - Samplehub-WMS",
     "Q1 Actual MD":0.09,
+    "Q1 Planned MD":1.19,
+    "Q1 Actual - Plan MD":-1.09,
+    "Q1 Gap %":-0.9210064365,
     "Q2 Actual MD":3.81,
     "Q2 Planned MD":7.66,
     "Q2 Actual - Plan MD":-3.85,
@@ -67,6 +82,9 @@
   {
     "Project":"CCB",
     "Q1 Actual MD":17.78,
+    "Q1 Planned MD":4.91,
+    "Q1 Actual - Plan MD":12.87,
+    "Q1 Gap %":2.6220944241,
     "Q2 Actual MD":12.62,
     "Q2 Planned MD":14.04,
     "Q2 Actual - Plan MD":-1.42,
@@ -80,6 +98,9 @@
   {
     "Project":"Helios embedded XXL JOB update",
     "Q1 Actual MD":2.69,
+    "Q1 Planned MD":2.04,
+    "Q1 Actual - Plan MD":0.65,
+    "Q1 Gap %":0.3191175874,
     "Q2 Actual MD":5.25,
     "Q2 Planned MD":2.81,
     "Q2 Actual - Plan MD":2.44,
@@ -93,6 +114,9 @@
   {
     "Project":"cve-2026-4-973 fix",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.0,
@@ -106,6 +130,9 @@
   {
     "Project":"3rd DC Foundation - 3rd DC : Outbound Release",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":38.91,
     "Q2 Planned MD":29.87,
     "Q2 Actual - Plan MD":9.04,
@@ -119,6 +146,9 @@
   {
     "Project":"Timesheet DevOps",
     "Q1 Actual MD":13.8,
+    "Q1 Planned MD":3.09,
+    "Q1 Actual - Plan MD":10.71,
+    "Q1 Gap %":3.4684446314,
     "Q2 Actual MD":8.5,
     "Q2 Planned MD":5.42,
     "Q2 Actual - Plan MD":3.08,
@@ -132,6 +162,9 @@
   {
     "Project":"Reprice on MDM",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":1.56,
     "Q2 Planned MD":1.18,
     "Q2 Actual - Plan MD":0.38,
@@ -145,6 +178,9 @@
   {
     "Project":"New Outbound LSP Integration for Retail",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.25,
     "Q2 Planned MD":1.54,
     "Q2 Actual - Plan MD":-1.29,
@@ -158,6 +194,9 @@
   {
     "Project":"3rd DC Foundation - Return Routing",
     "Q1 Actual MD":3.09,
+    "Q1 Planned MD":1.56,
+    "Q1 Actual - Plan MD":1.54,
+    "Q1 Gap %":0.9851823708,
     "Q2 Actual MD":9.38,
     "Q2 Planned MD":0.57,
     "Q2 Actual - Plan MD":8.81,
@@ -171,6 +210,9 @@
   {
     "Project":"China People Data Compliance Project - PI Data governance for external vendor",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.65,
     "Q2 Planned MD":3.35,
     "Q2 Actual - Plan MD":-2.7,
@@ -184,6 +226,9 @@
   {
     "Project":"3rd DC Foundation - RFID: Outbound",
     "Q1 Actual MD":1.0,
+    "Q1 Planned MD":0.07,
+    "Q1 Actual - Plan MD":0.93,
+    "Q1 Gap %":13.5491803279,
     "Q2 Actual MD":2.69,
     "Q2 Planned MD":0.07,
     "Q2 Actual - Plan MD":2.62,
@@ -197,6 +242,9 @@
   {
     "Project":"UCS - Inventory Service",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":1.31,
     "Q2 Planned MD":2.56,
     "Q2 Actual - Plan MD":-1.25,
@@ -210,6 +258,9 @@
   {
     "Project":"Omni System password policy enhance",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":1.38,
     "Q2 Planned MD":3.9,
     "Q2 Actual - Plan MD":-2.52,
@@ -223,6 +274,9 @@
   {
     "Project":"WBS Support Resource Pool",
     "Q1 Actual MD":1.14,
+    "Q1 Planned MD":0.02,
+    "Q1 Actual - Plan MD":1.12,
+    "Q1 Gap %":63.2378472222,
     "Q2 Actual MD":9.19,
     "Q2 Planned MD":2.58,
     "Q2 Actual - Plan MD":6.61,
@@ -236,6 +290,9 @@
   {
     "Project":"Improve store facility maintenance process",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.08,
+    "Q1 Actual - Plan MD":-0.08,
+    "Q1 Gap %":-1.0,
     "Q2 Actual MD":0.75,
     "Q2 Planned MD":3.43,
     "Q2 Actual - Plan MD":-2.68,
@@ -249,6 +306,9 @@
   {
     "Project":"Price Portal enhancement: MD pricing Phase2 EC MD",
     "Q1 Actual MD":0.19,
+    "Q1 Planned MD":0.33,
+    "Q1 Actual - Plan MD":-0.15,
+    "Q1 Gap %":-0.4377990431,
     "Q2 Actual MD":9.25,
     "Q2 Planned MD":7.57,
     "Q2 Actual - Plan MD":1.68,
@@ -262,6 +322,9 @@
   {
     "Project":"3rd DC - WWMT Kafka Integration Support",
     "Q1 Actual MD":0.44,
+    "Q1 Planned MD":0.62,
+    "Q1 Actual - Plan MD":-0.19,
+    "Q1 Gap %":-0.3,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.06,
     "Q2 Actual - Plan MD":-0.06,
@@ -275,6 +338,9 @@
   {
     "Project":"3rd DC Foundation - RFID: Inbound with PO & DC Transfer",
     "Q1 Actual MD":1.25,
+    "Q1 Planned MD":0.31,
+    "Q1 Actual - Plan MD":0.94,
+    "Q1 Gap %":3.0,
     "Q2 Actual MD":12.22,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":12.22,
@@ -288,6 +354,9 @@
   {
     "Project":"3rd DC Foundation - PO Release",
     "Q1 Actual MD":12.97,
+    "Q1 Planned MD":4.11,
+    "Q1 Actual - Plan MD":8.86,
+    "Q1 Gap %":2.1573341449,
     "Q2 Actual MD":1.25,
     "Q2 Planned MD":0.2,
     "Q2 Actual - Plan MD":1.05,
@@ -301,6 +370,9 @@
   {
     "Project":"3rd DC Foundation - 3rd DC : Inbound Release",
     "Q1 Actual MD":26.38,
+    "Q1 Planned MD":4.24,
+    "Q1 Actual - Plan MD":22.14,
+    "Q1 Gap %":5.2270628388,
     "Q2 Actual MD":23.16,
     "Q2 Planned MD":2.75,
     "Q2 Actual - Plan MD":20.4,
@@ -314,6 +386,9 @@
   {
     "Project":"3rd DC - Location Address Integration Support",
     "Q1 Actual MD":0.5,
+    "Q1 Planned MD":1.0,
+    "Q1 Actual - Plan MD":-0.5,
+    "Q1 Gap %":-0.5,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.06,
     "Q2 Actual - Plan MD":-0.06,
@@ -327,6 +402,9 @@
   {
     "Project":"China People Data Compliance Project - External Candidate Sensitive Data Collection in Avature",
     "Q1 Actual MD":0.25,
+    "Q1 Planned MD":2.17,
+    "Q1 Actual - Plan MD":-1.92,
+    "Q1 Gap %":-0.8847926267,
     "Q2 Actual MD":0.12,
     "Q2 Planned MD":0.12,
     "Q2 Actual - Plan MD":0.0,
@@ -340,6 +418,9 @@
   {
     "Project":"Carton receiving process Delivery",
     "Q1 Actual MD":25.91,
+    "Q1 Planned MD":18.13,
+    "Q1 Actual - Plan MD":7.78,
+    "Q1 Gap %":0.4288894255,
     "Q2 Actual MD":0.09,
     "Q2 Planned MD":1.13,
     "Q2 Actual - Plan MD":-1.03,
@@ -353,6 +434,9 @@
   {
     "Project":"Corporate Resource Pool",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.69,
     "Q2 Planned MD":0.26,
     "Q2 Actual - Plan MD":0.42,
@@ -366,6 +450,9 @@
   {
     "Project":"China Service Center",
     "Q1 Actual MD":0.5,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.5,
+    "Q1 Gap %":null,
     "Q2 Actual MD":19.81,
     "Q2 Planned MD":0.99,
     "Q2 Actual - Plan MD":18.82,
@@ -379,6 +466,9 @@
   {
     "Project":"Daily Operation - Baison",
     "Q1 Actual MD":0.06,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.06,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.0,
@@ -392,6 +482,9 @@
   {
     "Project":"Daily Operation - CAP",
     "Q1 Actual MD":0.06,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.06,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.0,
@@ -405,6 +498,9 @@
   {
     "Project":"Daily Operation - Cainiao",
     "Q1 Actual MD":0.06,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.06,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.0,
@@ -418,6 +514,9 @@
   {
     "Project":"DC to Province Mapping data EDE Publish",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.06,
+    "Q1 Actual - Plan MD":-0.06,
+    "Q1 Gap %":-1.0,
     "Q2 Actual MD":3.31,
     "Q2 Planned MD":4.32,
     "Q2 Actual - Plan MD":-1.01,
@@ -431,6 +530,9 @@
   {
     "Project":"Daily Operation - Hand",
     "Q1 Actual MD":0.22,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.22,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.0,
@@ -444,6 +546,9 @@
   {
     "Project":"Daily Operation - Helios",
     "Q1 Actual MD":0.06,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.06,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.0,
@@ -457,6 +562,9 @@
   {
     "Project":"Daily Operation - Kingdee",
     "Q1 Actual MD":0.06,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.06,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.0,
@@ -470,6 +578,9 @@
   {
     "Project":"Daily Operation - Linezone",
     "Q1 Actual MD":0.12,
+    "Q1 Planned MD":0.06,
+    "Q1 Actual - Plan MD":0.06,
+    "Q1 Gap %":1.0408163265,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.0,
@@ -483,6 +594,9 @@
   {
     "Project":"Daily Operation - TA",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.09,
     "Q2 Planned MD":0.06,
     "Q2 Actual - Plan MD":0.03,
@@ -496,6 +610,9 @@
   {
     "Project":"Daily Operation - TW",
     "Q1 Actual MD":0.06,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.06,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.0,
@@ -509,6 +626,9 @@
   {
     "Project":"Daily Operation - VT",
     "Q1 Actual MD":0.06,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.06,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.0,
@@ -522,6 +642,9 @@
   {
     "Project":"Daily Operation - EY",
     "Q1 Actual MD":0.06,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.06,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.0,
@@ -535,6 +658,9 @@
   {
     "Project":"Daily Operation - Weaver",
     "Q1 Actual MD":0.06,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.06,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.0,
@@ -548,6 +674,9 @@
   {
     "Project":"Databricks Workspace切换",
     "Q1 Actual MD":1.12,
+    "Q1 Planned MD":2.98,
+    "Q1 Actual - Plan MD":-1.86,
+    "Q1 Gap %":-0.6230950638,
     "Q2 Actual MD":0.06,
     "Q2 Planned MD":1.49,
     "Q2 Actual - Plan MD":-1.42,
@@ -561,6 +690,9 @@
   {
     "Project":"Educator training optimization - E Learning",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.59,
+    "Q1 Actual - Plan MD":-0.59,
+    "Q1 Gap %":-1.0,
     "Q2 Actual MD":0.09,
     "Q2 Planned MD":0.51,
     "Q2 Actual - Plan MD":-0.42,
@@ -574,6 +706,9 @@
   {
     "Project":"API Governance - T1 Discovery",
     "Q1 Actual MD":13.47,
+    "Q1 Planned MD":8.32,
+    "Q1 Actual - Plan MD":5.14,
+    "Q1 Gap %":0.6180377524,
     "Q2 Actual MD":2.06,
     "Q2 Planned MD":1.63,
     "Q2 Actual - Plan MD":0.43,
@@ -587,6 +722,9 @@
   {
     "Project":"Agile Fulfillment – FOH\/BOH for MD and enhancement",
     "Q1 Actual MD":5.44,
+    "Q1 Planned MD":1.25,
+    "Q1 Actual - Plan MD":4.19,
+    "Q1 Gap %":3.35,
     "Q2 Actual MD":2.28,
     "Q2 Planned MD":0.12,
     "Q2 Actual - Plan MD":2.16,
@@ -600,6 +738,9 @@
   {
     "Project":"Automatic CP BU Reformat & Buy Dump Sync",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.12,
     "Q2 Actual - Plan MD":-0.12,
@@ -613,6 +754,9 @@
   {
     "Project":"Avature Enhancement Q1 - Offer Letter Template&Field Enhancement",
     "Q1 Actual MD":0.81,
+    "Q1 Planned MD":1.61,
+    "Q1 Actual - Plan MD":-0.8,
+    "Q1 Gap %":-0.4963348676,
     "Q2 Actual MD":0.81,
     "Q2 Planned MD":1.01,
     "Q2 Actual - Plan MD":-0.2,
@@ -626,6 +770,9 @@
   {
     "Project":"3rd DC: Inbound Release - Price Data Integration",
     "Q1 Actual MD":0.5,
+    "Q1 Planned MD":0.25,
+    "Q1 Actual - Plan MD":0.25,
+    "Q1 Gap %":1.0,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.0,
@@ -639,6 +786,9 @@
   {
     "Project":"B2B Inventory Buy - Phase I - Manual Order Creation",
     "Q1 Actual MD":0.41,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.41,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.44,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.44,
@@ -652,6 +802,9 @@
   {
     "Project":"CR : APS Report",
     "Q1 Actual MD":0.69,
+    "Q1 Planned MD":7.05,
+    "Q1 Actual - Plan MD":-6.36,
+    "Q1 Gap %":-0.9024822695,
     "Q2 Actual MD":0.56,
     "Q2 Planned MD":6.07,
     "Q2 Actual - Plan MD":-5.5,
@@ -665,6 +818,9 @@
   {
     "Project":"CR : E2P Enhancement",
     "Q1 Actual MD":0.25,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.25,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.16,
     "Q2 Planned MD":0.25,
     "Q2 Actual - Plan MD":-0.09,
@@ -678,6 +834,9 @@
   {
     "Project":"CR : Chart Attribute Change",
     "Q1 Actual MD":0.44,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.44,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.19,
     "Q2 Planned MD":0.25,
     "Q2 Actual - Plan MD":-0.06,
@@ -691,6 +850,9 @@
   {
     "Project":"CR_Employee referral report",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":3.69,
     "Q2 Actual - Plan MD":-3.69,
@@ -704,6 +866,9 @@
   {
     "Project":"Carton Receiving\/DC to Store Portal | Reports Update",
     "Q1 Actual MD":2.12,
+    "Q1 Planned MD":3.7,
+    "Q1 Actual - Plan MD":-1.57,
+    "Q1 Gap %":-0.4250230757,
     "Q2 Actual MD":0.09,
     "Q2 Planned MD":0.26,
     "Q2 Actual - Plan MD":-0.17,
@@ -717,6 +882,9 @@
   {
     "Project":"3rd DC - MDM-Store Product LWH data from WMS",
     "Q1 Actual MD":0.47,
+    "Q1 Planned MD":0.38,
+    "Q1 Actual - Plan MD":0.09,
+    "Q1 Gap %":0.25,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.06,
     "Q2 Actual - Plan MD":-0.06,
@@ -730,6 +898,9 @@
   {
     "Project":"3rd DC - PDC\/VDC Location Data Regression Support",
     "Q1 Actual MD":0.62,
+    "Q1 Planned MD":0.62,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":0.0,
     "Q2 Actual MD":0.06,
     "Q2 Planned MD":0.06,
     "Q2 Actual - Plan MD":0.0,
@@ -743,6 +914,9 @@
   {
     "Project":"IAM Cleanup",
     "Q1 Actual MD":1.38,
+    "Q1 Planned MD":2.94,
+    "Q1 Actual - Plan MD":-1.57,
+    "Q1 Gap %":-0.5324104665,
     "Q2 Actual MD":2.19,
     "Q2 Planned MD":3.11,
     "Q2 Actual - Plan MD":-0.93,
@@ -756,6 +930,9 @@
   {
     "Project":"Hemming - SF WayBill Generatio",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.12,
     "Q2 Actual - Plan MD":-0.12,
@@ -769,6 +946,9 @@
   {
     "Project":"Helios AI",
     "Q1 Actual MD":3.78,
+    "Q1 Planned MD":0.03,
+    "Q1 Actual - Plan MD":3.75,
+    "Q1 Gap %":110.4473684211,
     "Q2 Actual MD":0.31,
     "Q2 Planned MD":0.01,
     "Q2 Actual - Plan MD":0.3,
@@ -782,6 +962,9 @@
   {
     "Project":"Helios - Location Data Integration",
     "Q1 Actual MD":0.19,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.19,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.06,
     "Q2 Planned MD":0.06,
     "Q2 Actual - Plan MD":0.0,
@@ -795,6 +978,9 @@
   {
     "Project":"Fulfillment Resource Pool",
     "Q1 Actual MD":1.5,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":1.5,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.88,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.88,
@@ -808,6 +994,9 @@
   {
     "Project":"GEC Portal - Share Service Portal Integration",
     "Q1 Actual MD":0.19,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.19,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.06,
     "Q2 Planned MD":0.06,
     "Q2 Actual - Plan MD":0.0,
@@ -821,6 +1010,9 @@
   {
     "Project":"Franchise Rolling",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.26,
+    "Q1 Actual - Plan MD":-0.26,
+    "Q1 Gap %":-1.0,
     "Q2 Actual MD":0.23,
     "Q2 Planned MD":2.01,
     "Q2 Actual - Plan MD":-1.78,
@@ -834,6 +1026,9 @@
   {
     "Project":"FY26 Summer MD",
     "Q1 Actual MD":3.5,
+    "Q1 Planned MD":4.42,
+    "Q1 Actual - Plan MD":-0.92,
+    "Q1 Gap %":-0.2077745876,
     "Q2 Actual MD":6.19,
     "Q2 Planned MD":5.58,
     "Q2 Actual - Plan MD":0.61,
@@ -847,6 +1042,9 @@
   {
     "Project":"Employee contact signing process risk elimination",
     "Q1 Actual MD":1.5,
+    "Q1 Planned MD":1.0,
+    "Q1 Actual - Plan MD":0.5,
+    "Q1 Gap %":0.5018773467,
     "Q2 Actual MD":0.28,
     "Q2 Planned MD":0.12,
     "Q2 Actual - Plan MD":0.16,
@@ -860,6 +1058,9 @@
   {
     "Project":"FY26 Event 618",
     "Q1 Actual MD":2.56,
+    "Q1 Planned MD":2.92,
+    "Q1 Actual - Plan MD":-0.36,
+    "Q1 Gap %":-0.1228497482,
     "Q2 Actual MD":8.47,
     "Q2 Planned MD":13.67,
     "Q2 Actual - Plan MD":-5.2,
@@ -873,6 +1074,9 @@
   {
     "Project":"FOH BOH Engine Re-open Date Integration",
     "Q1 Actual MD":0.5,
+    "Q1 Planned MD":0.24,
+    "Q1 Actual - Plan MD":0.26,
+    "Q1 Gap %":1.0512820513,
     "Q2 Actual MD":0.09,
     "Q2 Planned MD":0.06,
     "Q2 Actual - Plan MD":0.03,
@@ -886,6 +1090,9 @@
   {
     "Project":"Enhancement CR Q1 - AP WMP backend data",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":1.35,
+    "Q1 Actual - Plan MD":-1.35,
+    "Q1 Gap %":-1.0,
     "Q2 Actual MD":3.0,
     "Q2 Planned MD":2.23,
     "Q2 Actual - Plan MD":0.77,
@@ -899,6 +1106,9 @@
   {
     "Project":"Demand Factors PBI enhancement",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.75,
     "Q2 Planned MD":1.96,
     "Q2 Actual - Plan MD":-1.21,
@@ -912,6 +1122,9 @@
   {
     "Project":"KS & GZ DC: RFID Inbound",
     "Q1 Actual MD":16.09,
+    "Q1 Planned MD":2.01,
+    "Q1 Actual - Plan MD":14.08,
+    "Q1 Gap %":7.004772401,
     "Q2 Actual MD":5.47,
     "Q2 Planned MD":0.95,
     "Q2 Actual - Plan MD":4.52,
@@ -925,6 +1138,9 @@
   {
     "Project":"Legal Hub Dashboard Enhancement",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.21,
+    "Q1 Actual - Plan MD":-0.21,
+    "Q1 Gap %":-1.0,
     "Q2 Actual MD":0.47,
     "Q2 Planned MD":0.32,
     "Q2 Actual - Plan MD":0.15,
@@ -938,6 +1154,9 @@
   {
     "Project":"Keystone Rollout 2 - Impact Analysis",
     "Q1 Actual MD":0.06,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.06,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.12,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.12,
@@ -951,6 +1170,9 @@
   {
     "Project":"OTB Report",
     "Q1 Actual MD":4.81,
+    "Q1 Planned MD":4.53,
+    "Q1 Actual - Plan MD":0.28,
+    "Q1 Gap %":0.0625,
     "Q2 Actual MD":3.88,
     "Q2 Planned MD":4.63,
     "Q2 Actual - Plan MD":-0.75,
@@ -964,6 +1186,9 @@
   {
     "Project":"New SSC Admin外派人员门禁",
     "Q1 Actual MD":1.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":1.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":1.75,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":1.75,
@@ -977,6 +1202,9 @@
   {
     "Project":"Monthly People Safety Walkthrough",
     "Q1 Actual MD":0.25,
+    "Q1 Planned MD":1.48,
+    "Q1 Actual - Plan MD":-1.23,
+    "Q1 Gap %":-0.8307952623,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":2.67,
     "Q2 Actual - Plan MD":-2.67,
@@ -990,6 +1218,9 @@
   {
     "Project":"Litigation Management",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.12,
     "Q2 Planned MD":0.3,
     "Q2 Actual - Plan MD":-0.18,
@@ -1003,6 +1234,9 @@
   {
     "Project":"On order OTP",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":1.91,
     "Q2 Actual - Plan MD":-1.91,
@@ -1016,6 +1250,9 @@
   {
     "Project":"Outlets Stores Forecast for Sales Driven",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":2.34,
     "Q2 Planned MD":9.07,
     "Q2 Actual - Plan MD":-6.73,
@@ -1029,6 +1266,9 @@
   {
     "Project":"Petty Cash",
     "Q1 Actual MD":2.19,
+    "Q1 Planned MD":0.69,
+    "Q1 Actual - Plan MD":1.49,
+    "Q1 Gap %":2.157549689,
     "Q2 Actual MD":1.53,
     "Q2 Planned MD":1.47,
     "Q2 Actual - Plan MD":0.06,
@@ -1042,6 +1282,9 @@
   {
     "Project":"OTB Report CR",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.12,
     "Q2 Actual - Plan MD":-0.12,
@@ -1055,6 +1298,9 @@
   {
     "Project":"Price Portal enhancement: MD pricing Phase 1 Retail MD",
     "Q1 Actual MD":5.88,
+    "Q1 Planned MD":6.16,
+    "Q1 Actual - Plan MD":-0.29,
+    "Q1 Gap %":-0.0468464814,
     "Q2 Actual MD":4.22,
     "Q2 Planned MD":2.63,
     "Q2 Actual - Plan MD":1.59,
@@ -1068,6 +1314,9 @@
   {
     "Project":"Privacy Review",
     "Q1 Actual MD":1.62,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":1.62,
+    "Q1 Gap %":null,
     "Q2 Actual MD":5.5,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":5.5,
@@ -1081,6 +1330,9 @@
   {
     "Project":"Reduce the usage cost of ACK",
     "Q1 Actual MD":2.06,
+    "Q1 Planned MD":2.34,
+    "Q1 Actual - Plan MD":-0.28,
+    "Q1 Gap %":-0.1176918215,
     "Q2 Actual MD":3.97,
     "Q2 Planned MD":5.05,
     "Q2 Actual - Plan MD":-1.08,
@@ -1094,6 +1346,9 @@
   {
     "Project":"Legacy to New Pipeline Migration",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":2.06,
     "Q2 Planned MD":3.1,
     "Q2 Actual - Plan MD":-1.04,
@@ -1107,6 +1362,9 @@
   {
     "Project":"IP Protection Phase 2 - Pipeline Migration",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":1.14,
+    "Q1 Actual - Plan MD":-1.14,
+    "Q1 Gap %":-1.0,
     "Q2 Actual MD":3.84,
     "Q2 Planned MD":6.73,
     "Q2 Actual - Plan MD":-2.89,
@@ -1120,6 +1378,9 @@
   {
     "Project":"Inventory Efficiency Tool： inventory segmentation enhancement",
     "Q1 Actual MD":0.12,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.12,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.25,
     "Q2 Planned MD":0.25,
     "Q2 Actual - Plan MD":0.0,
@@ -1133,6 +1394,9 @@
   {
     "Project":"KS & GZ DC RFID: Outbound",
     "Q1 Actual MD":0.75,
+    "Q1 Planned MD":0.15,
+    "Q1 Actual - Plan MD":0.6,
+    "Q1 Gap %":3.9948770492,
     "Q2 Actual MD":16.12,
     "Q2 Planned MD":0.16,
     "Q2 Actual - Plan MD":15.96,
@@ -1146,6 +1410,9 @@
   {
     "Project":"IP Protection Phase 1 - Source Code Delivery",
     "Q1 Actual MD":13.31,
+    "Q1 Planned MD":11.58,
+    "Q1 Actual - Plan MD":1.73,
+    "Q1 Gap %":0.149378504,
     "Q2 Actual MD":10.16,
     "Q2 Planned MD":7.04,
     "Q2 Actual - Plan MD":3.12,
@@ -1159,6 +1426,9 @@
   {
     "Project":"SFS Operation Handover from Hand to EHC",
     "Q1 Actual MD":3.19,
+    "Q1 Planned MD":4.85,
+    "Q1 Actual - Plan MD":-1.66,
+    "Q1 Gap %":-0.3421654663,
     "Q2 Actual MD":3.94,
     "Q2 Planned MD":7.92,
     "Q2 Actual - Plan MD":-3.98,
@@ -1172,6 +1442,9 @@
   {
     "Project":"Reporting adoption to 3rd DC R3",
     "Q1 Actual MD":0.5,
+    "Q1 Planned MD":1.7,
+    "Q1 Actual - Plan MD":-1.2,
+    "Q1 Gap %":-0.70544919,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":11.38,
     "Q2 Actual - Plan MD":-11.38,
@@ -1185,6 +1458,9 @@
   {
     "Project":"Reporting Adoption for 3rd DC R2",
     "Q1 Actual MD":3.25,
+    "Q1 Planned MD":3.57,
+    "Q1 Actual - Plan MD":-0.32,
+    "Q1 Gap %":-0.0895239266,
     "Q2 Actual MD":1.38,
     "Q2 Planned MD":24.46,
     "Q2 Actual - Plan MD":-23.08,
@@ -1198,6 +1474,9 @@
   {
     "Project":"Regional Organization Accuracy in Store Portal",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.59,
     "Q2 Planned MD":0.46,
     "Q2 Actual - Plan MD":0.13,
@@ -1211,6 +1490,9 @@
   {
     "Project":"QA Resource Pool",
     "Q1 Actual MD":2.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":2.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.0,
@@ -1224,6 +1506,9 @@
   {
     "Project":"SFS Store Rollout – 9 Store Q1",
     "Q1 Actual MD":0.25,
+    "Q1 Planned MD":1.25,
+    "Q1 Actual - Plan MD":-1.0,
+    "Q1 Gap %":-0.7997997998,
     "Q2 Actual MD":0.56,
     "Q2 Planned MD":6.12,
     "Q2 Actual - Plan MD":-5.56,
@@ -1237,6 +1522,9 @@
   {
     "Project":"SFS | JD channel",
     "Q1 Actual MD":2.66,
+    "Q1 Planned MD":6.19,
+    "Q1 Actual - Plan MD":-3.53,
+    "Q1 Gap %":-0.5707070707,
     "Q2 Actual MD":1.0,
     "Q2 Planned MD":3.61,
     "Q2 Actual - Plan MD":-2.61,
@@ -1250,6 +1538,9 @@
   {
     "Project":"SFS Store Rollout – 9 Store Q2",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.35,
+    "Q1 Actual - Plan MD":-0.35,
+    "Q1 Gap %":-1.0,
     "Q2 Actual MD":0.09,
     "Q2 Planned MD":9.45,
     "Q2 Actual - Plan MD":-9.36,
@@ -1263,6 +1554,9 @@
   {
     "Project":"Service Center- FTW related label data",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":1.83,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":1.83,
@@ -1276,6 +1570,9 @@
   {
     "Project":"Store Clustering CN Automation",
     "Q1 Actual MD":0.31,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.31,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.06,
     "Q2 Planned MD":0.06,
     "Q2 Actual - Plan MD":0.0,
@@ -1289,6 +1586,9 @@
   {
     "Project":"Store Clustering SU27 Women \/ CN Adoption",
     "Q1 Actual MD":6.47,
+    "Q1 Planned MD":3.07,
+    "Q1 Actual - Plan MD":3.4,
+    "Q1 Gap %":1.1062271062,
     "Q2 Actual MD":1.94,
     "Q2 Planned MD":2.62,
     "Q2 Actual - Plan MD":-0.68,
@@ -1302,6 +1602,9 @@
   {
     "Project":"SFS | Omni Booster for SFS Business Impact in Store Achievement",
     "Q1 Actual MD":0.25,
+    "Q1 Planned MD":0.26,
+    "Q1 Actual - Plan MD":-0.01,
+    "Q1 Gap %":-0.0548891312,
     "Q2 Actual MD":0.12,
     "Q2 Planned MD":0.11,
     "Q2 Actual - Plan MD":0.01,
@@ -1315,6 +1618,9 @@
   {
     "Project":"SSOT Output - CN CC and Class Attribute",
     "Q1 Actual MD":0.25,
+    "Q1 Planned MD":0.06,
+    "Q1 Actual - Plan MD":0.18,
+    "Q1 Gap %":2.8461538462,
     "Q2 Actual MD":6.15,
     "Q2 Planned MD":0.15,
     "Q2 Actual - Plan MD":6.0,
@@ -1328,6 +1634,9 @@
   {
     "Project":"SSOT Output - CN SKU Attribute",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.15,
     "Q2 Planned MD":0.15,
     "Q2 Actual - Plan MD":0.0,
@@ -1341,6 +1650,9 @@
   {
     "Project":"SSOT- HMT TS Data Feasibility Check",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.22,
     "Q2 Actual - Plan MD":-0.22,
@@ -1354,6 +1666,9 @@
   {
     "Project":"Sample Hub Phase 2 | Function optimization",
     "Q1 Actual MD":1.97,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":1.97,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.0,
@@ -1367,6 +1682,9 @@
   {
     "Project":"Store to Home | Express Delivery",
     "Q1 Actual MD":0.03,
+    "Q1 Planned MD":2.16,
+    "Q1 Actual - Plan MD":-2.13,
+    "Q1 Gap %":-0.9855240301,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":2.0,
     "Q2 Actual - Plan MD":-2.0,
@@ -1380,6 +1698,9 @@
   {
     "Project":"Store Visit Reports",
     "Q1 Actual MD":0.25,
+    "Q1 Planned MD":1.52,
+    "Q1 Actual - Plan MD":-1.27,
+    "Q1 Gap %":-0.8359310911,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":2.67,
     "Q2 Actual - Plan MD":-2.67,
@@ -1393,6 +1714,9 @@
   {
     "Project":"Store Portal Enhancement - One Page Profile Enhancement",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.31,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.31,
@@ -1406,6 +1730,9 @@
   {
     "Project":"Store Portal Data 字段&逻辑调整",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":1.72,
     "Q2 Planned MD":0.66,
     "Q2 Actual - Plan MD":1.06,
@@ -1419,6 +1746,9 @@
   {
     "Project":"Store Clustering: CN Adoption CR",
     "Q1 Actual MD":0.06,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.06,
+    "Q1 Gap %":null,
     "Q2 Actual MD":2.94,
     "Q2 Planned MD":1.15,
     "Q2 Actual - Plan MD":1.79,
@@ -1432,6 +1762,9 @@
   {
     "Project":"Tenancy Agreement Foundation",
     "Q1 Actual MD":0.91,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.91,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.12,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.12,
@@ -1445,6 +1778,9 @@
   {
     "Project":"Store to Store Rebalance -  Channel to Channel Pilot - Discovery",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.25,
     "Q2 Actual - Plan MD":-0.25,
@@ -1458,6 +1794,9 @@
   {
     "Project":"Store to Store Rebalance - Inner Region Pilot",
     "Q1 Actual MD":0.62,
+    "Q1 Planned MD":0.8,
+    "Q1 Actual - Plan MD":-0.18,
+    "Q1 Gap %":-0.21875,
     "Q2 Actual MD":0.06,
     "Q2 Planned MD":3.6,
     "Q2 Actual - Plan MD":-3.54,
@@ -1471,6 +1810,9 @@
   {
     "Project":"UCS - Inventory for Product Sibling",
     "Q1 Actual MD":0.12,
+    "Q1 Planned MD":0.25,
+    "Q1 Actual - Plan MD":-0.12,
+    "Q1 Gap %":-0.5,
     "Q2 Actual MD":0.06,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":0.06,
@@ -1484,6 +1826,9 @@
   {
     "Project":"Trade Compliance Automation Tool - Customs Portal Enhancement",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":9.53,
     "Q2 Planned MD":4.99,
     "Q2 Actual - Plan MD":4.54,
@@ -1497,6 +1842,9 @@
   {
     "Project":"TA system enhance",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.12,
     "Q2 Actual - Plan MD":-0.12,
@@ -1510,6 +1858,9 @@
   {
     "Project":"VAT data mapping issues",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.0,
     "Q2 Planned MD":0.12,
     "Q2 Actual - Plan MD":-0.12,
@@ -1523,6 +1874,9 @@
   {
     "Project":"Weather alert​",
     "Q1 Actual MD":1.03,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":1.03,
+    "Q1 Gap %":null,
     "Q2 Actual MD":10.69,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":10.69,
@@ -1536,6 +1890,9 @@
   {
     "Project":"WBS Import",
     "Q1 Actual MD":4.56,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":4.56,
+    "Q1 Gap %":null,
     "Q2 Actual MD":4.59,
     "Q2 Planned MD":0.0,
     "Q2 Actual - Plan MD":4.59,
@@ -1549,6 +1906,9 @@
   {
     "Project":"[MDM] Timestamp & Dummy Indicator",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.69,
     "Q2 Planned MD":0.32,
     "Q2 Actual - Plan MD":0.36,
@@ -1562,6 +1922,9 @@
   {
     "Project":"[MDM] Product Sibling",
     "Q1 Actual MD":0.0,
+    "Q1 Planned MD":0.0,
+    "Q1 Actual - Plan MD":0.0,
+    "Q1 Gap %":null,
     "Q2 Actual MD":0.53,
     "Q2 Planned MD":0.24,
     "Q2 Actual - Plan MD":0.29,
