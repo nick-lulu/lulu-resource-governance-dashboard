@@ -1,0 +1,42 @@
+[
+  {
+    "Project":"cve-2026-4-973 fix",
+    "Q2 Actual Trace MD":0.0,
+    "Q3 Planned MD":7.5,
+    "Evidence":"No exact Q2 project-name actual found",
+    "Matched Q2 Project Names":"",
+    "Top Q2 Contributors":""
+  },
+  {
+    "Project":"Legacy to new pipeline migration",
+    "Q2 Actual Trace MD":5.91,
+    "Q3 Planned MD":16.0,
+    "Evidence":"Q2 actual exists in timesheet project name",
+    "Matched Q2 Project Names":"Legacy to New Pipeline Migration; IP Protection Phase 2 - Pipeline Migration",
+    "Top Q2 Contributors":"Nick Han 3.9MD; Jiarui Yang 1.0MD; Jenny Qian 0.5MD; Jacky Zhong 0.2MD"
+  },
+  {
+    "Project":"IP Protection - Baison Omni",
+    "Q2 Actual Trace MD":2.91,
+    "Q3 Planned MD":35.5,
+    "Evidence":"Q2 actual exists in timesheet project name",
+    "Matched Q2 Project Names":"IP Protection - Baison Omni",
+    "Top Q2 Contributors":"Nick Han 1.9MD; Jacky Zhong 0.6MD; Jenny Qian 0.5MD"
+  },
+  {
+    "Project":"IP Protection - Samplehub-WMS",
+    "Q2 Actual Trace MD":3.81,
+    "Q3 Planned MD":15.0,
+    "Evidence":"Q2 actual exists in timesheet project name",
+    "Matched Q2 Project Names":"IP Protection - Samplehub-WMS",
+    "Top Q2 Contributors":"Nick Han 2.3MD; Jacky Zhong 1.2MD; Jenny Qian 0.3MD"
+  },
+  {
+    "Project":"Helios embedded XXL JOB update",
+    "Q2 Actual Trace MD":5.75,
+    "Q3 Planned MD":8.88,
+    "Evidence":"Q2 actual exists in timesheet project name",
+    "Matched Q2 Project Names":"Helios embedded XXL JOB update",
+    "Top Q2 Contributors":"Nick Han 2.4MD; Jacky Zhong 1.5MD; Jenny Qian 1.2MD; Hongyu Yang 0.5MD"
+  }
+]

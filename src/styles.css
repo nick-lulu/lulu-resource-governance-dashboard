@@ -246,6 +246,39 @@ h2 {
   margin-bottom: 14px;
 }
 
+.evidence-panel {
+  margin-bottom: 14px;
+}
+
+.evidence-copy {
+  padding: 14px 16px;
+  border-bottom: 1px solid #e5e7eb;
+  color: #475569;
+  font-size: 13px;
+  line-height: 1.45;
+}
+
+.evidence-ok,
+.evidence-watch {
+  display: inline-flex;
+  min-width: 132px;
+  justify-content: center;
+  padding: 4px 8px;
+  border-radius: 7px;
+  font-size: 12px;
+  font-weight: 850;
+}
+
+.evidence-ok {
+  background: #e6f5f2;
+  color: #0f766e;
+}
+
+.evidence-watch {
+  background: #fff7e6;
+  color: #92400e;
+}
+
 .dedicated-summary {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr)) minmax(300px, 1.4fr);

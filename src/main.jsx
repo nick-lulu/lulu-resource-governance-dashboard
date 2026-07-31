@@ -23,6 +23,7 @@ import overview from "../outputs/resource_governance/overview.json";
 import resources from "../outputs/resource_governance/resource_summary.json";
 import monthly from "../outputs/resource_governance/monthly_summary.json";
 import gapList from "../outputs/resource_governance/gap_list.json";
+import q3ForecastEvidence from "../outputs/resource_governance/manual_projects_q2_actual_curated.json";
 import "./styles.css";
 
 const md = (value, digits = 1) =>
@@ -294,6 +295,44 @@ function App() {
                       ? "Q3 forecast needs confirmation"
                       : "Forecast baseline exists"}
                   </td>
+                </tr>
+              ))}
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section className="panel evidence-panel">
+        <div className="panel-title">
+          <h2>Q3 Forecast Evidence</h2>
+          <span className="unit">Q2 actual trace behind confirmed Q3 planned work</span>
+        </div>
+        <div className="evidence-copy">
+          These Q3 planned projects are included because they are confirmed forecast items. Where Q2 actual already exists in timesheet project names, it supports the read that this is continuing demand rather than a new assumption.
+        </div>
+        <div className="table-wrap compact-table">
+          <table>
+            <thead>
+              <tr>
+                <th>Project</th>
+                <th>Q2 Actual Trace</th>
+                <th>Q3 Planned</th>
+                <th>Evidence Status</th>
+                <th>Top Q2 Contributors</th>
+              </tr>
+            </thead>
+            <tbody>
+              {q3ForecastEvidence.map((row) => (
+                <tr key={row.Project}>
+                  <td><strong>{row.Project}</strong></td>
+                  <td>{md(row["Q2 Actual Trace MD"])} MD</td>
+                  <td>{md(row["Q3 Planned MD"])} MD</td>
+                  <td>
+                    <span className={Number(row["Q2 Actual Trace MD"] || 0) > 0 ? "evidence-ok" : "evidence-watch"}>
+                      {Number(row["Q2 Actual Trace MD"] || 0) > 0 ? "Q2 actual trace found" : "No exact Q2 trace"}
+                    </span>
+                  </td>
+                  <td>{row["Top Q2 Contributors"] || "Confirm project mapping"}</td>
                 </tr>
               ))}
             </tbody>
