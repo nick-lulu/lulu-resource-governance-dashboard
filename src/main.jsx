@@ -7,7 +7,7 @@ import {
   CheckCircle2,
   Download,
   Gauge,
-  TrendingDown,
+  Lightbulb,
   Users,
 } from "lucide-react";
 import {
@@ -116,15 +116,16 @@ function App() {
 
   const topWarnings = gapList.slice(0, 4);
   const coverageRate = overview.total_q3_adjusted_planned_md / overview.total_q2_actual_md;
+  const q3ActualMd = 0;
 
   return (
     <main>
       <header className="hero">
         <div>
           <p className="eyebrow">Lululemon Portfolio Resource Planning</p>
-          <h1>Actual Effort vs Q3 Forecast</h1>
+          <h1>Q3 Forecast Readiness</h1>
           <p className="subtitle">
-            Current status view for Charley: Q2 actual effort, Q3 planned workload, and the gaps that need management attention.
+            Current status view for Charley: Q2 actual baseline, Q3 planned workload, and what this says about forecast completeness before Q3 starts.
           </p>
         </div>
         <a className="download" href={`${import.meta.env.BASE_URL}downloads/Resource_Governance_Boss_Ready.xlsx`}>
@@ -137,34 +138,78 @@ function App() {
         <Kpi icon={Users} label="Resource Scope" value={`${overview.cohort_size} people`} note="Operation + dedicated QA + confirmed Q3 resource" />
         <Kpi icon={BarChart3} label="Q2 Actual Effort" value={`${md(overview.total_q2_actual_md)} MD`} note="Timesheet actual baseline" tone="blue" />
         <Kpi icon={Gauge} label="Q3 Planned MD" value={`${md(overview.total_q3_adjusted_planned_md)} MD`} note="Forecast plus confirmed Q3 project effort" tone="green" />
-        <Kpi icon={TrendingDown} label="Forecast Coverage Gap" value={`${md(Math.abs(overview.q3_adjusted_vs_q2_actual_md))} MD`} note={`Q3 covers only ${(coverageRate * 100).toFixed(0)}% of Q2 run-rate`} tone="red" />
+        <Kpi icon={Lightbulb} label="Forecast Coverage Check" value={`${(coverageRate * 100).toFixed(0)}%`} note="Q3 planned compared with Q2 actual run-rate, not an actual gap" tone="amber" />
       </section>
 
       <section className="summary-grid">
         <article className="panel narrative">
           <div className="panel-title">
-            <h2>Current Readout</h2>
+            <h2>Takeaway</h2>
             <StatusBadge value="High" />
           </div>
           <ul>
             <li>
-              <strong>Q2 actual is materially higher than plan.</strong>
+              <strong>We cannot calculate Q3 actual gap yet.</strong>
+              <span>Source actual data is through 2026-07-31, while lulu Q3 starts on 2026-08-01. Current Q3 actual is {md(q3ActualMd)} MD in this dataset.</span>
+            </li>
+            <li>
+              <strong>Q3 planned MD is a forecast readiness number.</strong>
+              <span>Q3 planned is {md(overview.total_q3_adjusted_planned_md)} MD after folding confirmed project effort into the plan.</span>
+            </li>
+            <li>
+              <strong>Insight: the Q3 forecast still looks light versus recent delivery run-rate.</strong>
+              <span>Q2 actual was {md(overview.total_q2_actual_md)} MD, so Q3 planned currently covers {(coverageRate * 100).toFixed(0)}% of Q2 run-rate. This suggests the forecast may still be incomplete, not that we have a Q3 execution gap.</span>
+            </li>
+          </ul>
+        </article>
+
+        <article className="panel narrative">
+          <div className="panel-title">
+            <h2>Insight</h2>
+            <span className="unit">How to read this</span>
+          </div>
+          <ul>
+            <li>
+              <strong>Actual comparison logic changes after Q3 starts.</strong>
+              <span>Once Aug-Oct timesheet actuals are available, the dashboard should switch to Q3 Actual vs Q3 Planned by resource and project.</span>
+            </li>
+            <li>
+              <strong>Current management action is forecast cleanup.</strong>
+              <span>Before Q3 execution, the useful question is whether all known Q3 demand has been planned and assigned to named resources.</span>
+            </li>
+            <li>
+              <strong>Q2 actual is only a benchmark.</strong>
+              <span>It helps detect whether the Q3 forecast is unusually low compared with the recent actual workload, especially for recurring Operation work.</span>
+            </li>
+          </ul>
+        </article>
+      </section>
+
+      <section className="summary-grid">
+        <article className="panel narrative">
+          <div className="panel-title">
+            <h2>Current Status</h2>
+            <span className="unit">As of 2026-07-31</span>
+          </div>
+          <ul>
+            <li>
+              <strong>Q2 actual was materially higher than plan.</strong>
               <span>Actual effort reached {md(overview.total_q2_actual_md)} MD, which is {md(overview.total_q2_gap_md)} MD above Q2 planned baseline.</span>
             </li>
             <li>
-              <strong>Q3 planned effort is still not enough against run-rate.</strong>
+              <strong>Q3 plan has been adjusted with confirmed project effort.</strong>
               <span>After adding confirmed Q3 project effort into planned MD, Q3 planned is {md(overview.total_q3_adjusted_planned_md)} MD.</span>
             </li>
             <li>
-              <strong>The real management gap is forecast completeness.</strong>
-              <span>Remaining gap vs Q2 actual is {md(Math.abs(overview.q3_adjusted_vs_q2_actual_md))} MD, so this should not be read as spare capacity yet.</span>
+              <strong>The remaining concern is forecast completeness.</strong>
+              <span>The next step is to confirm whether recurring Operation work and project pipeline have all been represented in Q3 planned MD.</span>
             </li>
           </ul>
         </article>
 
         <article className="panel chart-panel">
           <div className="panel-title">
-            <h2>Actual vs Q3 Planned Trend</h2>
+            <h2>Actual Baseline vs Q3 Planned</h2>
             <span className="unit">MD</span>
           </div>
           <ResponsiveContainer width="100%" height={300}>

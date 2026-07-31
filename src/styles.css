@@ -111,6 +111,10 @@ h2 {
   color: #0f766e;
 }
 
+.kpi.amber svg {
+  color: #b45309;
+}
+
 .kpi.red svg {
   color: #b91c1c;
 }
