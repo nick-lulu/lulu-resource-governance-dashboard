@@ -21,7 +21,6 @@ import {
 } from "recharts";
 import overview from "../outputs/resource_governance/overview.json";
 import resources from "../outputs/resource_governance/resource_summary.json";
-import projects from "../outputs/resource_governance/project_summary.json";
 import monthly from "../outputs/resource_governance/monthly_summary.json";
 import gapList from "../outputs/resource_governance/gap_list.json";
 import "./styles.css";
@@ -43,15 +42,6 @@ function getResourceStatus(row) {
   const q2Gap = Math.abs(Number(row["Q2 Actual - Plan MD"] || 0));
   if (q1Gap >= 20 || q2Gap >= 20) return "High";
   if (q1Gap >= 10 || q2Gap >= 10) return "Medium";
-  return "Low";
-}
-
-function getProjectStatus(row) {
-  const q2Actual = Number(row["Q2 Actual MD"] || 0);
-  const q2Plan = Number(row["Q2 Planned MD"] || 0);
-  const q3Plan = Number(row["Q3 Adjusted Planned MD"] || 0);
-  if ((q2Actual >= 10 && q2Plan === 0) || (q2Actual >= 25 && q3Plan < q2Actual * 0.5)) return "High";
-  if ((q2Actual > 0 && q2Plan === 0) || Math.abs(q2Actual - q2Plan) >= 8) return "Medium";
   return "Low";
 }
 
@@ -98,22 +88,6 @@ function App() {
         .map((row) => ({ ...row, status: getResourceStatus(row) }))
         .sort((a, b) => Number(b["Q2 Actual MD"] || 0) - Number(a["Q2 Actual MD"] || 0))
         .slice(0, 9),
-    [],
-  );
-
-  const projectRows = useMemo(
-    () =>
-      projects
-        .filter((row) => Number(row["Q2 Actual MD"] || 0) > 0 || Number(row["Q3 Adjusted Planned MD"] || 0) > 0)
-        .map((row) => ({ ...row, status: getProjectStatus(row) }))
-        .sort((a, b) => {
-          const score = (item) =>
-            (item.status === "High" ? 1000 : item.status === "Medium" ? 500 : 0) +
-            Number(item["Q2 Actual MD"] || 0) +
-            Number(item["Q3 Adjusted Planned MD"] || 0);
-          return score(b) - score(a);
-        })
-        .slice(0, 10),
     [],
   );
 
@@ -280,36 +254,6 @@ function App() {
           </div>
         </article>
 
-        <article className="panel">
-          <div className="panel-title">
-            <h2>Project Reality</h2>
-            <span className="unit">Key plan gaps</span>
-          </div>
-          <div className="table-wrap">
-            <table>
-              <thead>
-                <tr>
-                  <th>Status</th>
-                  <th>Project</th>
-                  <th>Q1 A/P</th>
-                  <th>Q2 A/P</th>
-                  <th>Q3 Forecast</th>
-                </tr>
-              </thead>
-              <tbody>
-                {projectRows.map((row) => (
-                  <tr key={row.Project}>
-                    <td><StatusBadge value={row.status} /></td>
-                    <td><strong>{row.Project}</strong></td>
-                    <td>{md(row["Q1 Actual MD"])} / {md(row["Q1 Planned MD"])}</td>
-                    <td>{md(row["Q2 Actual MD"])} / {md(row["Q2 Planned MD"])}</td>
-                    <td>{md(row["Q3 Adjusted Planned MD"])} MD</td>
-                  </tr>
-                ))}
-              </tbody>
-            </table>
-          </div>
-        </article>
       </section>
 
       <footer>
