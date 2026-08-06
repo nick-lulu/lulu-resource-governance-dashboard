@@ -224,8 +224,8 @@ function App() {
               <YAxis tick={{ fontSize: 12 }} />
               <Tooltip formatter={(value) => `${md(value)} MD`} />
               <Legend />
-              <Bar dataKey="planned" name="Planned / Forecast" fill="#0F766E" radius={[4, 4, 0, 0]} />
-              <Bar dataKey="actual" name="Actual" fill="#2563EB" radius={[4, 4, 0, 0]} />
+              <Bar dataKey="planned" name="Planned / Forecast" fill="#668078" radius={[2, 2, 0, 0]} />
+              <Bar dataKey="actual" name="Actual" fill="#46586B" radius={[2, 2, 0, 0]} />
             </BarChart>
           </ResponsiveContainer>
         </article>
